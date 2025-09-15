@@ -7,45 +7,45 @@ export default class ProductDetails {
     this.product = {};
   }
 
+  
+
   async init() {
     this.product = await this.dataSource.findProductById(this.productId);
 
-    this.renderProductDetails();
+    if (this.product) {
+      this.renderProductDetails();
 
-    document
-      .getElementById("addToCart")
-      .addEventListener("click", this.addProductToCart.bind(this));
-  }
-
-  renderProductDetails() {
-    const p = this.product;
-    document.title = `Sleep Outside | ${p.NameWithoutBrand}`;
-
-    document.querySelector("h2").textContent = p.Brand?.Name ?? "No Brand";
-    document.querySelector("h3").textContent = p.NameWithoutBrand ?? "Product";
-    
-    document.querySelector(".product-card__price").textContent = 
-      `$${p.FinalPrice ?? p.ListPrice ?? "0.00"}`;
-    
-    document.querySelector(".product__color").textContent = 
-      p.Colors?.[0]?.ColorName ?? "N/A";
-    
-    document.querySelector(".product__description").innerHTML = 
-      p.DescriptionHtmlSimple ?? "";
-
-    const img = document.getElementById("productImage");
-    const imagePath = p.Image ? p.Image.replace('../images/', '/images/') : "/images/tents/placeholder.png";
-    img.src = imagePath;
-    img.alt = p.NameWithoutBrand ?? "Product image";
-
-    const btn = document.getElementById("addToCart");
-    btn.dataset.id = p.Id;
+      document
+        .getElementById("addToCart")
+        .addEventListener("click", this.addProductToCart.bind(this));
+    } else {
+      console.log("Product not found");
+      // You could also render a "product not found" message to the user here.
+    }
   }
 
   addProductToCart() {
-    const cartItems = getLocalStorage('so-cart') || [];
+    const cartItems = getLocalStorage("so-cart") || [];
     cartItems.push(this.product);
-    setLocalStorage('so-cart', cartItems);
-    console.log(`Product ${this.product.Id} added to cart`);
+    setLocalStorage("so-cart", cartItems);
   }
+
+  renderProductDetails() {
+    productDetailsTemplate(this.product);
+  }
+}
+
+function productDetailsTemplate(product) {
+  document.querySelector("h2").textContent = product.Brand.Name;
+  document.querySelector("h3").textContent = product.NameWithoutBrand;
+
+  const productImage = document.getElementById("productImage");
+  productImage.src = product.Image;
+  productImage.alt = product.NameWithoutBrand;
+
+  document.getElementById("productPrice").textContent = product.FinalPrice;
+  document.getElementById("productColor").textContent = product.Colors[0].ColorName;
+  document.getElementById("productDesc").innerHTML = product.DescriptionHtmlSimple;
+
+  document.getElementById("addToCart").dataset.id = product.Id;
 }
