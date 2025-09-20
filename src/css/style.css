@@ -7,6 +7,7 @@
   --tertiary-color: #8a470c;
   --light-grey: #d0d0d0;
   --dark-grey: #303030;
+  --discount-color: rgb(187, 0, 40);
 
   /* sizes */
   --font-base: 18px;
@@ -250,6 +251,24 @@ button {
   font-size: 1.5em;
   color: var(--secondary-color);
 }
+
+#p-price.discount-price {          /*Discounted price styling*/
+  text-decoration: line-through;     
+  color: var(--discount-color);
+}
+
+.discount-reduce {     /*Hides the discount element by default*/
+  font-size: 1.5em;
+  display: none;
+}
+
+.discount-reduce.show {  /*This class is applied only if there is discount*/
+  font-style: italic;
+  font-weight: bold;
+  color: var(--secondary-color);
+  display: block;
+}
+
 
 /* Start cart list card styles */
 .cart-card {
