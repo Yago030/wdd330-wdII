@@ -54,7 +54,7 @@ export async function loadHeaderFooter() {
   let pathPrefix = ".";
   const path = window.location.pathname;
 
-  if (path.includes("product_pages") || path.includes("cart") || path.includes("checkout")) {
+  if (path.includes("product_pages") || path.includes("cart") || path.includes("checkout") || path.includes("product_listing")) {
     pathPrefix = "..";
   }
 
