@@ -1,17 +1,5 @@
-import { renderListWithTemplate } from "./utils.mjs";
+import { renderListWithTemplate } from './utils.mjs';
 
-function productCardTemplate(product) {
-  return `
-    <li class="product-card">
-      <a href="/product_pages/?product=${product.Id}">
-        <img src="${product.Images.PrimaryMedium}" alt="${product.Name}">
-        <h3>${product.Brand.Name}</h3>
-        <p>${product.NameWithoutBrand}</p>
-        <p class="product-card__price">$${product.FinalPrice}</p>
-      </a>
-    </li>
-    `;
-}
 
 export default class ProductList {
   constructor(category, dataSource, listElement) {
@@ -21,12 +9,37 @@ export default class ProductList {
   }
 
   async init() {
-    const list = await this.dataSource.getData(this.category);
-    this.renderList(list);
-    document.querySelector(".title").textContent = this.category;
+    try {
+      const products = await this.dataSource.getData(this.category);
+      this.renderProductList(products);
+    } catch (error) {
+      console.error('Error loading products:', error);
+      this.listElement.innerHTML = '<li><p>Error al cargar los productos</p></li>';
+    }
   }
 
-  renderList(list) {
-    renderListWithTemplate(productCardTemplate, this.listElement, list);
+  renderProductList(products) {
+    const template = (product) => {
+      const imageUrl = product.Images?.PrimaryMedium || product.Images?.PrimaryLarge || product.Image || '/images/placeholder.png';
+      const brandName = product.Brand?.Name || product.Name?.split(' ')[0] || 'No Brand';
+      const price = product.FinalPrice || product.ListPrice || product.Price || '0.00';
+      
+      return `
+        <li class="product-card">
+          <a href="../product_pages/index.html?product=${product.Id}">
+            <img
+              src="${imageUrl}"
+              alt="${product.NameWithoutBrand}"
+            />
+            <h3 class="card__brand">${brandName}</h3>
+            <h2 class="card__name">${product.NameWithoutBrand}</h2>
+            <p class="product-card__price">$${price}</p>
+          </a>
+        </li>
+      `;
+    };
+
+    renderListWithTemplate(template, this.listElement, products);
   }
 }
+
