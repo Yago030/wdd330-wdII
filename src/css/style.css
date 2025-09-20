@@ -252,23 +252,25 @@ button {
   color: var(--secondary-color);
 }
 
-#p-price.discount-price {          /*Discounted price styling*/
-  text-decoration: line-through;     
+#p-price.discount-price {
+  /*Discounted price styling*/
+  text-decoration: line-through;
   color: var(--discount-color);
 }
 
-.discount-reduce {     /*Hides the discount element by default*/
+.discount-reduce {
+  /*Hides the discount element by default*/
   font-size: 1.5em;
   display: none;
 }
 
-.discount-reduce.show {  /*This class is applied only if there is discount*/
+.discount-reduce.show {
+  /*This class is applied only if there is discount*/
   font-style: italic;
   font-weight: bold;
   color: var(--secondary-color);
   display: block;
 }
-
 
 /* Start cart list card styles */
 .cart-card {
