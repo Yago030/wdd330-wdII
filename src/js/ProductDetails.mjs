@@ -34,7 +34,7 @@ export default class ProductDetails {
       p.DescriptionHtmlSimple ?? "";
 
     const img = document.getElementById("productImage");
-    const imagePath = p.Image ? p.Image.replace('../images/', '/images/') : "/images/tents/placeholder.png";
+    const imagePath = p.Images?.PrimaryLarge || p.Image || "/images/tents/placeholder.png";
     img.src = imagePath;
     img.alt = p.NameWithoutBrand ?? "Product image";
 

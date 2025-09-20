@@ -9,7 +9,7 @@ export default class ProductList {
 
   async init() {
     try {
-      const products = await this.dataSource.getData();
+      const products = await this.dataSource.getData(this.category);
       this.renderProductList(products);
     } catch (error) {
       console.error('Error loading products:', error);
@@ -19,7 +19,7 @@ export default class ProductList {
 
   renderProductList(products) {
     const template = (product) => {
-      const imageUrl = product.Image || product.Images?.PrimaryLarge || '/images/placeholder.png';
+      const imageUrl = product.Images?.PrimaryMedium || product.Images?.PrimaryLarge || product.Image || '/images/placeholder.png';
       const brandName = product.Brand?.Name || product.Name?.split(' ')[0] || 'No Brand';
       const price = product.FinalPrice || product.ListPrice || product.Price || '0.00';
       
