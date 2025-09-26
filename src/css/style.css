@@ -380,3 +380,21 @@ footer {
   font-weight: bold;
   margin: 0;
 }
+
+.cart-footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: right;
+  border-top: 2px solid var(--primary-color);
+}
+
+.cart-footer.hide {
+  display: none;
+}
+
+.cart-total {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin: 0;
+}
