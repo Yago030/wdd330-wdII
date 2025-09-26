@@ -1,5 +1,5 @@
 import ProductData from './ProductData.mjs';
-import { renderListWithTemplate, loadHeaderFooter } from './utils.mjs';
+import { renderListWithTemplate } from './utils.mjs';
 
 const availableProducts = ['880RR', '985RF', '985PR', '344YJ'];
 
@@ -24,25 +24,19 @@ function productCardTemplate(product) {
 async function loadProducts() {
   try {
     const allProducts = await dataSource.getData();
-
-    const availableProductsData = allProducts.filter((product) =>
-      availableProducts.includes(product.Id),
+    
+    const availableProductsData = allProducts.filter(product => 
+      availableProducts.includes(product.Id)
     );
-
+    
     const productList = document.querySelector('.product-list');
-    renderListWithTemplate(
-      productCardTemplate,
-      productList,
-      availableProductsData,
-    );
+    renderListWithTemplate(productCardTemplate, productList, availableProductsData);
+    
   } catch (error) {
     console.error('Error loading products:', error);
-    document.querySelector('.product-list').innerHTML =
+    document.querySelector('.product-list').innerHTML = 
       '<li><p>Error al cargar los productos</p></li>';
   }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  loadHeaderFooter();
-  loadProducts();
-});
+document.addEventListener('DOMContentLoaded', loadProducts);
