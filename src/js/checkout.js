@@ -33,13 +33,13 @@ if (checkoutForm) {
     });
     
     if (!allFieldsFilled) {
-      alert('Por favor completa todos los campos requeridos.');
+      alert('Please fill in all required fields.');
       return;
     }
     
     const cartItems = JSON.parse(localStorage.getItem('so-cart') || '[]');
     if (cartItems.length === 0) {
-      alert('No hay items en el carrito.');
+      alert('No items in cart.');
       return;
     }
     
