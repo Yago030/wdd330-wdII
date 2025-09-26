@@ -40,3 +40,9 @@ function cartItemTemplate(item) {
 }
 
 renderCartContents();
+
+document.addEventListener('click', function(e) {
+  if (e.target.classList.contains('checkout-btn')) {
+    window.location.href = '../checkout/index.html';
+  }
+});
