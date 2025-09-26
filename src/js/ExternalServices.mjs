@@ -36,6 +36,12 @@ export default class ExternalServices {
     };
 
     const response = await fetch(url, options);
+    
+    if (!response.ok) {
+      const errorText = await response.text();
+      throw new Error(`Server error: ${response.status} - ${errorText}`);
+    }
+    
     return await convertToJson(response);
   }
 }
