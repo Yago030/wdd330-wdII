@@ -1,4 +1,4 @@
-import { loadHeaderFooter } from './utils.mjs';
+import { loadHeaderFooter, alertMessage } from './utils.mjs';
 import CheckoutProcess from './CheckoutProcess.mjs';
 
 loadHeaderFooter();
@@ -20,30 +20,24 @@ if (checkoutForm) {
   checkoutForm.addEventListener('submit', async function (e) {
     e.preventDefault();
 
-    const requiredFields = this.querySelectorAll('[required]');
-    let allFieldsFilled = true;
+    const chk_status = this.checkValidity();
+    this.reportValidity();
 
-    requiredFields.forEach((field) => {
-      if (!field.value.trim()) {
-        allFieldsFilled = false;
-        field.style.borderColor = 'red';
-      } else {
-        field.style.borderColor = '';
-      }
-    });
-
-    if (!allFieldsFilled) {
-      alert('Please fill in all required fields.');
+    if (!chk_status) {
       return;
     }
 
     const cartItems = JSON.parse(localStorage.getItem('so-cart') || '[]');
     if (cartItems.length === 0) {
-      alert('No items in cart.');
+      alertMessage('No hay items en el carrito.');
       return;
     }
 
-    await checkoutProcess.checkout(this);
+    try {
+      await checkoutProcess.checkout(this);
+    } catch (error) {
+      alertMessage(error.message);
+    }
   });
 }
 

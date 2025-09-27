@@ -104,16 +104,18 @@ export default class CheckoutProcess {
 
       const response = await this.externalServices.checkout(orderData);
       
-      if (response.success) {
-        localStorage.removeItem('so-cart');
-        alert('Order processed successfully!');
-        window.location.href = '../index.html';
-      } else {
-        alert('Error processing order. Please try again.');
-      }
+      localStorage.removeItem('so-cart');
+      window.location.href = 'success.html';
+      
     } catch (error) {
       console.error('Error en checkout:', error);
-      alert('Error processing order. Please try again.');
+      
+      if (error.name === 'servicesError') {
+        const errorMessage = error.message.message || 'Error del servidor. Intenta de nuevo.';
+        throw new Error(errorMessage);
+      } else {
+        throw new Error('Error de conexión. Verifica tu internet e intenta de nuevo.');
+      }
     }
   }
 
