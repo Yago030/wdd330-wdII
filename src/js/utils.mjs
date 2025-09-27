@@ -1,19 +1,15 @@
-// wrapper for querySelector...returns matching element
 export function qs(selector, parent = document) {
   return parent.querySelector(selector);
 }
 
-// retrieve data from localstorage
 export function getLocalStorage(key) {
   return JSON.parse(localStorage.getItem(key));
 }
 
-// save data to local storage
 export function setLocalStorage(key, data) {
   localStorage.setItem(key, JSON.stringify(data));
 }
 
-// set a listener for both touchend and click
 export function setClick(selector, callback) {
   qs(selector).addEventListener("touchend", (event) => {
     event.preventDefault();
@@ -80,6 +76,32 @@ export async function loadHeaderFooter() {
     }
     if (cartLink) {
       cartLink.href = "../cart/index.html";
+    }
+  }
+}
+
+export function alertMessage(message, scroll = true) {
+  const alert = document.createElement('div');
+  alert.classList.add('alert');
+  alert.innerHTML = `
+    <span>${message}</span>
+    <span class="close-btn">&times;</span>
+  `;
+
+  alert.addEventListener('click', function(e) {
+    if (e.target.classList.contains('close-btn') || e.target.innerText === '×') {
+      const main = document.querySelector('main');
+      if (main && main.contains(this)) {
+        main.removeChild(this);
+      }
+    }
+  });
+
+  const main = document.querySelector('main');
+  if (main) {
+    main.prepend(alert);
+    if (scroll) {
+      window.scrollTo(0, 0);
     }
   }
 }
