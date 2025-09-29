@@ -1,4 +1,4 @@
-import { getLocalStorage, loadHeaderFooter } from './utils.mjs';
+import { getLocalStorage, loadHeaderFooter, setLocalStorage } from './utils.mjs';
 
 loadHeaderFooter();
 
@@ -6,10 +6,20 @@ function renderCartContents() {
   const cartItems = getLocalStorage('so-cart');
   const cartFooter = document.querySelector('.cart-footer');
   const cartTotal = document.querySelector('.cart-total');
+  const productList = document.querySelector('.product-list');
 
   if (cartItems && cartItems.length > 0) {
     const htmlItems = cartItems.map((item) => cartItemTemplate(item));
-    document.querySelector('.product-list').innerHTML = htmlItems.join('');
+    productList.innerHTML = htmlItems.join('');
+    const removeButtons = productList.querySelectorAll('.remove-product-btn');
+    removeButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const targetProduct = cartItems.findIndex((item) => item.Id === button.dataset.id );
+        cartItems.splice(targetProduct, 1);
+        setLocalStorage('so-cart', cartItems);
+        location.reload();
+      });
+    });
 
     const total = cartItems.reduce(
       (sum, item) => sum + parseFloat(item.FinalPrice),
@@ -27,7 +37,7 @@ function cartItemTemplate(item) {
   const newItem = `<li class="cart-card divider">
   <a href="#" class="cart-card__image">
     <img
-      src="${item.Image}"
+      src="${item.Images.PrimarySmall}"
       alt="${item.Name}"
     />
   </a>
@@ -37,6 +47,7 @@ function cartItemTemplate(item) {
   <p class="cart-card__color">${item.Colors[0].ColorName}</p>
   <p class="cart-card__quantity">qty: 1</p>
   <p class="cart-card__price">$${item.FinalPrice}</p>
+  <button class="remove-product-btn" data-id="${item.Id}" aria-label="Remove Product Button">X</button>
 </li>`;
 
   return newItem;

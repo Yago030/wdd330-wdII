@@ -108,13 +108,13 @@ export default class CheckoutProcess {
       window.location.href = 'success.html';
       
     } catch (error) {
-      console.error('Error en checkout:', error);
+      console.error('Error during checkout:', error);
       
       if (error.name === 'servicesError') {
-        const errorMessage = error.message.message || 'Error del servidor. Intenta de nuevo.';
+        const errorMessage = error.message.message || 'Server. Try again later.';
         throw new Error(errorMessage);
       } else {
-        throw new Error('Error de conexión. Verifica tu internet e intenta de nuevo.');
+        throw new Error('Connection error. Verify your internet and try again.');
       }
     }
   }
