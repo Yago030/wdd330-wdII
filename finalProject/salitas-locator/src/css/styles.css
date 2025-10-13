@@ -1,4 +1,39 @@
 
+/* CSS Variables - Medical Color Palette */
+:root {
+  --medical-blue-dark: #0c4a6e;
+  --medical-blue-medium: #0284c7;
+  --medical-blue-light: #0ea5e9;
+  --medical-cyan: #06b6d4;
+  
+  /* Medical Background Colors */
+  --medical-bg-primary: #f0fdf4;
+  --medical-bg-secondary: #dcfce7;
+  --medical-bg-white: rgba(255, 255, 255, 0.9);
+  --medical-bg-white-solid: rgba(255, 255, 255, 0.95);
+  
+  --medical-text-primary: #0c4a6e;
+  --medical-text-secondary: #475569;
+  --medical-text-muted: #64748b;
+  
+  --medical-border-light: rgba(2, 132, 199, 0.2);
+  --medical-border-medium: rgba(2, 132, 199, 0.3);
+  --medical-border-white: rgba(255, 255, 255, 0.3);
+  
+  --medical-shadow-light: rgba(2, 132, 199, 0.1);
+  --medical-shadow-medium: rgba(2, 132, 199, 0.15);
+  --medical-shadow-strong: rgba(2, 132, 199, 0.3);
+  --medical-shadow-hover: rgba(2, 132, 199, 0.4);
+  
+  --medical-pattern-primary: rgba(14, 165, 233, 0.05);
+  --medical-pattern-secondary: rgba(14, 165, 233, 0.03);
+  
+  --medical-gradient-primary: linear-gradient(135deg, var(--medical-blue-dark), var(--medical-blue-medium));
+  --medical-gradient-bg: linear-gradient(135deg, #f0fdf4, #dcfce7, #bbf7d0);
+  --medical-gradient-bar: linear-gradient(90deg, var(--medical-blue-medium), var(--medical-blue-light), var(--medical-cyan));
+  --medical-gradient-button: linear-gradient(135deg, var(--medical-blue-medium), #0369a1);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -263,134 +298,531 @@ header {
 
 /* FAQ Styles */
 .faq-section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 5rem 1.5rem;
-  width: 100%;
+  background: var(--medical-gradient-bg);
+  padding: 4rem 1rem;
+  position: relative;
+  overflow: hidden;
 }
 
-.faq-title-container {
+
+.faq-wrapper {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.faq-header {
   text-align: center;
-  margin-bottom: 3.5rem;
+  margin-bottom: 3rem;
 }
 
 .faq-title {
   font-size: 2.5rem;
-  font-weight: 600;
-  color: #0369a1;
+  font-weight: 700;
+  color: var(--medical-text-primary);
   margin-bottom: 1rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  background: var(--medical-gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-.faq-divider {
-  width: 6rem;
-  height: 0.25rem;
-  background: #7dd3fc;
+.faq-subtitle {
+  color: var(--medical-text-secondary);
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  max-width: 500px;
   margin: 0 auto;
-  border-radius: 9999px;
 }
 
 .faq-container {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
   align-items: stretch;
   width: 100%;
 }
 
 .faq-item {
-  display: block;
-  width: 100%;
-  background: white;
-  border: 1px solid #e5e7eb;
-  border-radius: 1rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease;
+  background: var(--medical-bg-white);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--medical-border-white);
+  border-radius: 20px;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.08),
+    0 0 0 1px rgba(255, 255, 255, 0.2);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
+  position: relative;
+}
+
+.faq-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--medical-gradient-bar);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
 }
 
 .faq-item:hover {
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-  transform: translateY(-2px);
+  transform: translateY(-4px);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.12),
+    0 0 0 1px rgba(255, 255, 255, 0.3);
 }
 
-.faq-summary {
+.faq-item:hover::before {
+  transform: scaleX(1);
+}
+
+.faq-item.active {
+  background: var(--medical-bg-white-solid);
+  border-color: var(--medical-blue-medium);
+  box-shadow: 
+    0 12px 40px var(--medical-shadow-medium),
+    0 0 0 1px var(--medical-border-medium);
+}
+
+.faq-item.active::before {
+  transform: scaleX(1);
+}
+
+.faq-question {
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  padding: 1.5rem 2rem;
-  font-size: 1.125rem;
-  font-weight: 500;
-  color: #374151;
+  padding: 2rem 2.5rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.faq-question:hover {
+  background: var(--medical-shadow-light);
+}
+
+.faq-question-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--medical-text-primary);
+  margin: 0;
+  line-height: 1.4;
+  flex: 1;
+  padding-right: 1rem;
   transition: color 0.3s ease;
-  list-style: none;
 }
 
-.faq-summary::-webkit-details-marker {
-  display: none;
+.faq-item:hover .faq-question-text {
+  color: var(--medical-blue-medium);
 }
 
-.faq-summary::marker {
-  content: "";
-}
-
-.faq-summary:hover {
-  color: #0369a1;
+.faq-item.active .faq-question-text {
+  color: var(--medical-blue-medium);
 }
 
 .faq-icon {
-  color: #0ea5e9;
-  font-size: 1.5rem;
+  color: var(--medical-text-muted);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--medical-shadow-light);
+  flex-shrink: 0;
+}
+
+.faq-icon svg {
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  font-weight: 300;
-  display: inline-block;
 }
 
-.faq-item[open] .faq-icon {
-  transform: rotate(45deg);
+.faq-item:hover .faq-icon {
+  color: var(--medical-blue-medium);
+  background: var(--medical-shadow-medium);
 }
 
-.faq-content {
-  display: grid;
-  grid-template-rows: 0fr;
-  transition: grid-template-rows 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+.faq-item.active .faq-icon {
+  color: var(--medical-blue-medium);
+  background: var(--medical-border-light);
+}
+
+.faq-answer {
+  max-height: 0;
   overflow: hidden;
-  border-top: 1px solid #f3f4f6;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border-top: 1px solid rgba(226, 232, 240, 0.5);
 }
 
-.faq-content > div {
-  min-height: 0;
-  overflow: hidden;
+.faq-item.active .faq-answer {
+  max-height: 500px;
 }
 
-.faq-content-inner {
-  padding: 0 2rem 1.5rem 2rem;
-  color: #374151;
+.faq-answer-content {
+  padding: 0 2.5rem 2rem 2.5rem;
+  color: #475569;
   line-height: 1.7;
   font-size: 1rem;
   opacity: 0;
   transform: translateY(-10px);
-  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0.1s;
 }
 
-.faq-item[open] .faq-content {
-  grid-template-rows: 1fr;
-}
-
-.faq-item[open] .faq-content-inner {
+.faq-item.active .faq-answer-content {
   opacity: 1;
   transform: translateY(0);
 }
 
 .faq-link {
-  color: #0284c7;
-  text-decoration: underline;
-  transition: color 0.3s ease;
+  color: var(--medical-blue-medium);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.faq-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--medical-blue-medium);
+  transition: width 0.3s ease;
 }
 
 .faq-link:hover {
-  color: #0369a1;
+  color: var(--medical-blue-dark);
+}
+
+.faq-link:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .faq-section {
+    padding: 3rem 1rem;
+  }
+  
+  .faq-title {
+    font-size: 2rem;
+  }
+  
+  .faq-subtitle {
+    font-size: 1rem;
+  }
+  
+  .faq-container {
+    gap: 1rem;
+  }
+  
+  .faq-question {
+    padding: 1.5rem 1.5rem;
+  }
+  
+  .faq-question-text {
+    font-size: 1.1rem;
+    padding-right: 0.75rem;
+  }
+  
+  .faq-icon {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .faq-answer-content {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* Contact Section Styles */
+.contact-container {
+  background: var(--medical-gradient-bg);
+  padding: 4rem 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.contact-wrapper {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--medical-text-primary);
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  background: var(--medical-gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.contact-subtitle {
+  color: var(--medical-text-secondary);
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form-container {
+  background: var(--medical-bg-white);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--medical-border-white);
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.08),
+    0 0 0 1px rgba(255, 255, 255, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-form-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--medical-gradient-bar);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.contact-form-container:hover::before {
+  transform: scaleX(1);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.form-group {
+  position: relative;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper.textarea-wrapper {
+  align-items: flex-start;
+}
+
+.input-wrapper input,
+.input-wrapper textarea {
+  width: 100%;
+  padding: 1.25rem 1rem 1.25rem 3.5rem;
+  border: 2px solid var(--medical-border-light);
+  border-radius: 16px;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  background: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  color: #374151;
+  outline: none;
+}
+
+.input-wrapper textarea {
+  padding-top: 1.5rem;
+  min-height: 140px;
+  resize: vertical;
+}
+
+.input-wrapper input:focus,
+.input-wrapper textarea:focus {
+  border-color: var(--medical-blue-medium);
+  background: white;
+  box-shadow: 
+    0 0 0 4px var(--medical-shadow-light),
+    0 8px 25px var(--medical-shadow-medium);
+  transform: translateY(-2px);
+}
+
+.input-wrapper input:focus + .floating-label,
+.input-wrapper textarea:focus + .floating-label,
+.input-wrapper input:not(:placeholder-shown) + .floating-label,
+.input-wrapper textarea:not(:placeholder-shown) + .floating-label {
+  transform: translateY(-2.5rem) scale(0.85);
+  color: var(--medical-blue-medium);
+  font-weight: 500;
+}
+
+.floating-label {
+  position: absolute;
+  left: 3.5rem;
+  top: 1.25rem;
+  color: #9ca3af;
+  font-size: 1rem;
+  font-weight: 400;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-origin: left top;
+  z-index: 1;
+}
+
+.textarea-wrapper .floating-label {
+  top: 1.5rem;
+}
+
+.input-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+  transition: all 0.3s ease;
+  z-index: 2;
+}
+
+.textarea-wrapper .input-icon {
+  top: 1.5rem;
+  transform: none;
+}
+
+.input-wrapper input:focus ~ .input-icon,
+.input-wrapper textarea:focus ~ .input-icon {
+  color: var(--medical-blue-medium);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.textarea-wrapper input:focus ~ .input-icon,
+.textarea-wrapper textarea:focus ~ .input-icon {
+  transform: scale(1.1);
+}
+
+.contact-submit {
+  background: var(--medical-gradient-button);
+  color: white;
+  border: none;
+  border-radius: 16px;
+  padding: 1.25rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 25px var(--medical-shadow-strong);
+}
+
+.contact-submit::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.contact-submit:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px var(--medical-shadow-hover);
+}
+
+.contact-submit:hover::before {
+  left: 100%;
+}
+
+.contact-submit:active {
+  transform: translateY(-1px);
+}
+
+.contact-submit svg {
+  transition: transform 0.3s ease;
+}
+
+.contact-submit:hover svg {
+  transform: translateX(4px);
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 3rem 1rem;
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+  }
+  
+  .contact-subtitle {
+    font-size: 1rem;
+  }
+  
+  .contact-form-container {
+    padding: 2rem 1.5rem;
+    border-radius: 16px;
+  }
+  
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .contact-form {
+    gap: 1.25rem;
+  }
+  
+  .input-wrapper input,
+  .input-wrapper textarea {
+    padding: 1rem 1rem 1rem 3rem;
+    font-size: 0.95rem;
+  }
+  
+  .floating-label {
+    left: 3rem;
+    top: 1rem;
+    font-size: 0.95rem;
+  }
+  
+  .input-icon {
+    left: 0.75rem;
+  }
+  
+  .textarea-wrapper .input-icon {
+    top: 1.25rem;
+  }
 }
 

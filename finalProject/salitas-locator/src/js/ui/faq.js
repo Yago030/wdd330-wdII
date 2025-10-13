@@ -5,15 +5,16 @@ export const faq = {
       faqEl.classList.add('faq-section');
   
       faqEl.innerHTML = `
-        <!-- Título -->
-        <div class="faq-title-container">
-          <h2 class="faq-title">Preguntas Frecuentes</h2>
-          <div class="faq-divider"></div>
-        </div>
-  
-        <!-- Bloques FAQ -->
-        <div class="faq-container">
-          ${[
+        <div class="faq-wrapper">
+          <!-- Título -->
+          <div class="faq-header">
+            <h2 class="faq-title">Preguntas Frecuentes</h2>
+            <p class="faq-subtitle">Encuentra respuestas a las dudas más comunes sobre Tu Salita</p>
+          </div>
+
+          <!-- Bloques FAQ -->
+          <div class="faq-container">
+            ${[
             {
               q: '¿Qué es Tu Salita?',
               a: `
@@ -67,18 +68,24 @@ export const faq = {
                 Las correcciones se revisan manualmente antes de publicarse.`
             }
           ].map(item => `
-            <details class="faq-item">
-              <summary class="faq-summary">
-                <span>${item.q}</span>
-                <span class="faq-icon">+</span>
-              </summary>
-              <div class="faq-content">
-                <div class="faq-content-inner">
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3 class="faq-question-text">${item.q}</h3>
+                <div class="faq-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                  </svg>
+                </div>
+              </div>
+              <div class="faq-answer">
+                <div class="faq-answer-content">
                   ${item.a}
                 </div>
               </div>
-            </details>
+            </div>
           `).join('')}
+          </div>
         </div>
       `;
   
@@ -87,14 +94,28 @@ export const faq = {
         const faqItems = faqEl.querySelectorAll('.faq-item');
         
         faqItems.forEach(item => {
-          item.addEventListener('toggle', () => {
-            if (item.open) {
-              // Cerrar todos los otros FAQ
-              faqItems.forEach(otherItem => {
-                if (otherItem !== item && otherItem.open) {
-                  otherItem.open = false;
-                }
-              });
+          const question = item.querySelector('.faq-question');
+          const answer = item.querySelector('.faq-answer');
+          const icon = item.querySelector('.faq-icon svg');
+          
+          question.addEventListener('click', () => {
+            const isOpen = item.classList.contains('active');
+            
+            // Cerrar todos los otros FAQ
+            faqItems.forEach(otherItem => {
+              if (otherItem !== item) {
+                otherItem.classList.remove('active');
+                otherItem.querySelector('.faq-icon svg').style.transform = 'rotate(0deg)';
+              }
+            });
+            
+            // Toggle el FAQ actual
+            if (isOpen) {
+              item.classList.remove('active');
+              icon.style.transform = 'rotate(0deg)';
+            } else {
+              item.classList.add('active');
+              icon.style.transform = 'rotate(45deg)';
             }
           });
         });
