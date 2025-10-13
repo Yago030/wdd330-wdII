@@ -38,7 +38,7 @@ export const centros = {
 
   async loadCentros() {
     try {
-      const response = await fetch('/src/data/centros.json');
+      const response = await fetch('/centros.json');
       return await response.json();
     } catch (error) {
       console.error('Error cargando centros:', error);
