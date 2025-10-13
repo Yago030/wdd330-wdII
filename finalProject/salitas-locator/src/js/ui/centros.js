@@ -1,25 +1,37 @@
 export const centros = {
+  currentPage: 1,
+  itemsPerPage: 10,
+  allCentros: [],
+
   async render() {
     const centrosEl = document.createElement('section');
     centrosEl.classList.add('centros-section');
     centrosEl.id = 'centros';
 
     const data = await this.loadCentros();
+    this.allCentros = data.centros;
     
     centrosEl.innerHTML = `
       <div class="centros-wrapper">
         <div class="centros-header">
           <h2 class="centros-title">Centros de Salud</h2>
           <p class="centros-subtitle">Encuentra información detallada de cada centro de salud</p>
+          <div class="centros-stats">
+            <span class="total-centros">Total: ${this.allCentros.length} centros</span>
+          </div>
         </div>
         
-        <div class="centros-container">
-          ${data.centros.map(centro => this.renderCentroCard(centro)).join('')}
+        <div class="centros-container" id="centros-container">
+          ${this.renderCentrosPage()}
+        </div>
+        
+        <div class="pagination-container" id="pagination-container">
+          ${this.renderPagination()}
         </div>
       </div>
     `;
 
-    this.addSpecialtyAccordion(centrosEl);
+    this.addEventListeners(centrosEl);
 
     return centrosEl;
   },
@@ -34,9 +46,125 @@ export const centros = {
     }
   },
 
+  getCurrentPageCentros() {
+    const startIndex = (this.currentPage - 1) * this.itemsPerPage;
+    const endIndex = startIndex + this.itemsPerPage;
+    return this.allCentros.slice(startIndex, endIndex);
+  },
+
+  getTotalPages() {
+    return Math.ceil(this.allCentros.length / this.itemsPerPage);
+  },
+
+  renderCentrosPage() {
+    const currentCentros = this.getCurrentPageCentros();
+    return currentCentros.map(centro => this.renderCentroCard(centro)).join('');
+  },
+
+  renderPagination() {
+    const totalPages = this.getTotalPages();
+    if (totalPages <= 1) return '';
+
+    let paginationHTML = '<div class="pagination">';
+    
+    // Botón anterior
+    if (this.currentPage > 1) {
+      paginationHTML += `<button class="pagination-btn prev-btn" data-page="${this.currentPage - 1}">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="15,18 9,12 15,6"></polyline>
+        </svg>
+        Anterior
+      </button>`;
+    }
+
+    // Números de página
+    const startPage = Math.max(1, this.currentPage - 2);
+    const endPage = Math.min(totalPages, this.currentPage + 2);
+
+    if (startPage > 1) {
+      paginationHTML += `<button class="pagination-btn" data-page="1">1</button>`;
+      if (startPage > 2) {
+        paginationHTML += `<span class="pagination-ellipsis">...</span>`;
+      }
+    }
+
+    for (let i = startPage; i <= endPage; i++) {
+      paginationHTML += `<button class="pagination-btn ${i === this.currentPage ? 'active' : ''}" data-page="${i}">${i}</button>`;
+    }
+
+    if (endPage < totalPages) {
+      if (endPage < totalPages - 1) {
+        paginationHTML += `<span class="pagination-ellipsis">...</span>`;
+      }
+      paginationHTML += `<button class="pagination-btn" data-page="${totalPages}">${totalPages}</button>`;
+    }
+
+    // Botón siguiente
+    if (this.currentPage < totalPages) {
+      paginationHTML += `<button class="pagination-btn next-btn" data-page="${this.currentPage + 1}">
+        Siguiente
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="9,18 15,12 9,6"></polyline>
+        </svg>
+      </button>`;
+    }
+
+    paginationHTML += '</div>';
+    return paginationHTML;
+  },
+
+  updatePage(page) {
+    this.currentPage = page;
+    const container = document.getElementById('centros-container');
+    const paginationContainer = document.getElementById('pagination-container');
+    
+    if (container) {
+      container.innerHTML = this.renderCentrosPage();
+      this.addSpecialtyAccordion(container);
+    }
+    
+    if (paginationContainer) {
+      paginationContainer.innerHTML = this.renderPagination();
+      this.addPaginationListeners();
+    }
+    
+    // Scroll suave hacia la sección de centros
+    this.scrollToCentrosSection();
+  },
+
+  scrollToCentrosSection() {
+    // Pequeño delay para asegurar que el contenido se haya renderizado
+    setTimeout(() => {
+      const centrosSection = document.getElementById('centros');
+      if (centrosSection) {
+        centrosSection.scrollIntoView({ 
+          behavior: 'smooth', 
+          block: 'start' 
+        });
+      }
+    }, 100);
+  },
+
+  addEventListeners(element) {
+    this.addSpecialtyAccordion(element);
+    this.addPaginationListeners();
+  },
+
+  addPaginationListeners() {
+    setTimeout(() => {
+      const paginationBtns = document.querySelectorAll('.pagination-btn');
+      paginationBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const page = parseInt(btn.getAttribute('data-page'));
+          this.updatePage(page);
+        });
+      });
+    }, 0);
+  },
+
   renderCentroCard(centro) {
     return `
-      <div class="centro-card">
+      <div class="centro-card compact" data-centro-id="${centro.id}">
         <div class="centro-header">
           <div class="centro-icon">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -51,7 +179,18 @@ export const centros = {
           </div>
         </div>
 
-        <div class="centro-details">
+        <div class="centro-actions">
+          <button class="expand-btn" data-centro-id="${centro.id}">
+            <span class="expand-text">Ver más</span>
+            <div class="expand-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6,9 12,15 18,9"></polyline>
+              </svg>
+            </div>
+          </button>
+        </div>
+
+        <div class="centro-details" style="display: none;">
           <div class="detail-item">
             <div class="detail-icon">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -78,7 +217,7 @@ export const centros = {
           </div>
         </div>
 
-        <div class="centro-services">
+        <div class="centro-services" style="display: none;">
           <div class="service-item ${centro.farmacia ? 'available' : 'unavailable'}">
             <div class="service-icon">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -110,7 +249,7 @@ export const centros = {
           </div>
         </div>
 
-        <div class="centro-specialties">
+        <div class="centro-specialties" style="display: none;">
           <div class="specialties-header">
             <button class="specialties-toggle" data-centro-id="${centro.id}" data-centro-name="${centro.efector}">
               <span class="toggle-text">Ver especialidades</span>
@@ -170,6 +309,7 @@ export const centros = {
   addSpecialtyAccordion(element) {
     setTimeout(() => {
       const toggleButtons = element.querySelectorAll('.specialties-toggle');
+      const expandButtons = element.querySelectorAll('.expand-btn');
       
       toggleButtons.forEach(button => {
         button.addEventListener('click', () => {
@@ -178,7 +318,46 @@ export const centros = {
           this.openSpecialtiesModal(centroId, centroName);
         });
       });
+
+      expandButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const centroId = button.getAttribute('data-centro-id');
+          this.toggleCentroCard(centroId);
+        });
+      });
     }, 0);
+  },
+
+  toggleCentroCard(centroId) {
+    const card = document.querySelector(`[data-centro-id="${centroId}"]`);
+    if (!card) return;
+
+    const details = card.querySelector('.centro-details');
+    const services = card.querySelector('.centro-services');
+    const specialties = card.querySelector('.centro-specialties');
+    const expandBtn = card.querySelector('.expand-btn');
+    const expandText = expandBtn.querySelector('.expand-text');
+    const expandIcon = expandBtn.querySelector('.expand-icon svg');
+
+    const isExpanded = !card.classList.contains('compact');
+
+    if (isExpanded) {
+      details.style.display = 'none';
+      services.style.display = 'none';
+      specialties.style.display = 'none';
+      expandText.textContent = 'Ver más';
+      expandIcon.style.transform = 'rotate(0deg)';
+      card.classList.add('compact');
+      card.classList.remove('expanded');
+    } else {
+      details.style.display = 'block';
+      services.style.display = 'block';
+      specialties.style.display = 'block';
+      expandText.textContent = 'Ver menos';
+      expandIcon.style.transform = 'rotate(180deg)';
+      card.classList.remove('compact');
+      card.classList.add('expanded');
+    }
   },
 
   async openSpecialtiesModal(centroId, centroName) {

@@ -1,4 +1,3 @@
-// src/js/ui/header.js
 export const header = {
   render() {
     const headerEl = document.createElement('header');
@@ -11,7 +10,20 @@ export const header = {
         <div class="profile">
           <div class="header-container">
             <div class="header-logo">
-              <span class="header-logo-text">TS</span>
+              <svg class="header-logo-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+                <path d="M12 1v6"></path>
+                <path d="M12 17v6"></path>
+                <path d="M4.22 4.22l4.24 4.24"></path>
+                <path d="M15.54 15.54l4.24 4.24"></path>
+                <path d="M1 12h6"></path>
+                <path d="M17 12h6"></path>
+                <path d="M4.22 19.78l4.24-4.24"></path>
+                <path d="M15.54 8.46l4.24-4.24"></path>
+              </svg>
             </div>
             <span class="header-title">Tu Salita</span>
           </div>

@@ -269,6 +269,3851 @@
           "fechaActualizacion": "08/01/2024 - 10:00"
         }
       ]
+    },
+    {
+      "id": 4,
+      "efector": "Centro de Salud Nº 110 María Luna (Colonia Elena)",
+      "localidad": "Cuadro Nacional",
+      "domicilio": "Calle Pública S/N Km 165",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Martes de 13:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Viernes de 07:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Jueves de 09:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Miercoles de 11:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes, Miercoles de 08:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Lunes de 09:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Lunes, Viernes de 09:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Miercoles de 08:00 hs a 10:00 hs.",
+            "Viernes de 09:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes, Sabado de 08:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes, Sabado de 08:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "efector": "Centro de Salud Nº 111 Rodolfo Iselin",
+      "localidad": "La Llave",
+      "domicilio": "Dr. T. Schestakow S/N",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes, Miercoles, Jueves de 10:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Lunes de 11:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Jueves de 11:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes de 09:00 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Miercoles de 08:00 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Martes de 09:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 08:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 14:00 hs.",
+            "Sabado de 08:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "efector": "Centro de Salud Nº 112 El Usillal",
+      "localidad": "Las Paredes",
+      "domicilio": "Las Mercedes S/N",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes, Viernes de 11:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Martes, Jueves de 08:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Martes de 09:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes de 10:30 hs a 13:30 hs.",
+            "Jueves de 08:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Miercoles de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes de 08:00 hs a 12:30 hs.",
+            "Viernes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Miercoles, Viernes de 08:00 hs a 15:00 hs.",
+            "Martes, Jueves de 07:30 hs a 15:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "efector": "Centro de Salud Nº 113 Floreal Marotta (Monte Coman)",
+      "localidad": "Monte Comán",
+      "domicilio": "Av. Mendoza S/N",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes, Miercoles, Viernes de 13:00 hs a 17:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Lunes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Martes de 08:30 hs a 12:30 hs.",
+            "Viernes de 09:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Lunes de 13:00 hs a 17:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes de 08:00 hs a 12:00 hs.",
+            "Martes de 09:00 hs a 12:00 hs.",
+            "Jueves de 09:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Traumatología",
+          "horarios": [
+            "Martes de 11:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Martes de 09:30 hs a 12:30 hs.",
+            "Miercoles de 17:00 hs a 19:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Lunes de 08:00 hs a 12:00 hs.",
+            "Martes de 12:00 hs a 16:00 hs.",
+            "Miercoles de 10:30 hs a 14:30 hs.",
+            "Jueves de 15:00 hs a 21:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes, Miercoles de 08:00 hs a 13:00 hs.",
+            "Jueves de 09:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes, Sabado, Domingo de 00:00 hs a 23:59 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Trabajo Social",
+          "horarios": [
+            "Martes de 09:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "efector": "Centro de Salud Nº 114 Villa Atuel",
+      "localidad": "Villa Atuel",
+      "domicilio": "Balbino Arizu 187",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Cardiología",
+          "horarios": [
+            "Viernes de 07:30 hs a 13:30 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes de 08:00 hs a 12:00 hs.",
+            "Viernes de 08:00 hs a 17:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Lunes de 12:00 hs a 14:00 hs.",
+            "Miercoles de 08:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Neumonología",
+          "horarios": [
+            "Lunes de 08:00 hs a 13:00 hs.",
+            "Miercoles de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Viernes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Martes de 07:00 hs a 12:00 hs.",
+            "Jueves de 07:30 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Traumatología",
+          "horarios": [
+            "Lunes de 13:00 hs a 21:00 hs.",
+            "Martes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Martes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Martes, Miercoles, Jueves de 08:00 hs a 14:00 hs.",
+            "Lunes de 10:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes, Martes, Miercoles de 13:00 hs a 18:00 hs.",
+            "Jueves, Viernes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Radiología",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes, Sabado, Domingo de 00:00 hs a 23:59 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "efector": "Centro de Salud Nº 115 Real Del Padre",
+      "localidad": "Real del Padre",
+      "domicilio": "Neuquén S/N",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Lunes de 12:00 hs a 16:00 hs.",
+            "Miercoles de 09:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves de 14:00 hs a 18:00 hs.",
+            "Viernes de 14:00 hs a 17:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes, Sabado, Domingo de 00:00 hs a 23:59 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 08:00"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "efector": "Centro de Salud Nº 116 Cuadro Benegas",
+      "localidad": "Cuadro Benegas",
+      "domicilio": "Ruta 144 8880",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Cardiología",
+          "horarios": [
+            "Jueves de 08:00 hs a 13:30 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Martes, Viernes de 13:00 hs a 18:00 hs.",
+            "Miercoles de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Miercoles de 09:30 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Jueves de 12:30 hs a 16:30 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Lunes de 08:30 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Martes, Miercoles de 13:00 hs a 16:00 hs.",
+            "Jueves, Viernes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Viernes de 10:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Martes, Viernes de 08:30 hs a 16:00 hs.",
+            "Lunes de 09:30 hs a 16:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Martes, Miercoles, Viernes de 08:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 08:00 hs a 19:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Trabajo Social",
+          "horarios": [
+            "Lunes, Martes de 12:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "efector": "Centro de Salud Nº 117 El Nihuil",
+      "localidad": "El Nihuil",
+      "domicilio": "Calle Bufano S/N",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Miercoles, Viernes de 08:00 hs a 12:00 hs.",
+            "Lunes de 16:00 hs a 21:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Martes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Martes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Martes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Oftalmología",
+          "horarios": [
+            "Martes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Miercoles de 13:30 hs a 17:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Martes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:30 hs a 15:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes, Sabado, Domingo de 00:00 hs a 23:59 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "efector": "Centro de Salud Nº 118 El Sosneado",
+      "localidad": "Cuadro Benegas",
+      "domicilio": "Ejército de los Andes S/N",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Jueves de 12:30 hs a 18:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Miercoles de 08:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Jueves de 12:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Lunes, Miercoles de 17:00 hs a 20:00 hs.",
+            "Jueves de 17:00 hs a 19:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Jueves de 08:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 08:00 hs a 18:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Martes, Miercoles, Jueves, Viernes, Sabado, Domingo de 00:00 hs a 23:59 hs.",
+            "Lunes de 00:00 hs a 23:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 11:00"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "efector": "Centro de Salud Nº 119 Rama Caida",
+      "localidad": "Rama Caída",
+      "domicilio": "Urquiza 249",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Cardiología",
+          "horarios": [
+            "Jueves de 07:30 hs a 13:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Martes, Miercoles, Jueves, Viernes de 08:00 hs a 12:00 hs.",
+            "Lunes de 08:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Martes, Jueves de 08:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Miercoles de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Lunes de 08:00 hs a 12:00 hs.",
+            "Jueves de 11:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Martes, Miercoles, Jueves, Viernes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Martes de 15:00 hs a 18:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes, Miercoles, Jueves, Viernes de 07:00 hs a 12:00 hs.",
+            "Martes de 07:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 19:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 20:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "efector": "Centro de Salud Nº 123 Punta de Agua",
+      "localidad": "Punta de Agua",
+      "domicilio": "Avenida de Mayo s/n",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Sabado de 07:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Sabado de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes, Sabado, Domingo de 00:00 hs a 23:59 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Viernes de 07:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes, Sabado, Domingo de 00:00 hs a 23:59 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "efector": "Centro de Salud Nº 130 Salto de las Rosas",
+      "localidad": "Cañada Seca",
+      "domicilio": "9 de Julio s./n.",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Cardiología",
+          "horarios": [
+            "Miercoles de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes de 08:00 hs a 12:00 hs.",
+            "Miercoles de 15:00 hs a 18:00 hs.",
+            "Jueves de 08:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Lunes, Jueves de 09:00 hs a 14:00 hs.",
+            "Martes de 10:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Neumonología",
+          "horarios": [
+            "Martes de 10:00 hs a 12:00 hs.",
+            "Miercoles de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Lunes de 14:30 hs a 17:30 hs.",
+            "Martes de 10:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Martes, Miercoles de 15:00 hs a 19:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes, Miercoles de 08:00 hs a 12:00 hs y de 14:00 hs a 18:00 hs.",
+            "Martes, Viernes de 08:00 hs a 12:00 hs.",
+            "Jueves de 15:00 hs a 19:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Oftalmología",
+          "horarios": [
+            "Martes, Jueves, Viernes de 09:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Traumatología",
+          "horarios": [
+            "Lunes de 12:00 hs a 20:00 hs.",
+            "Viernes de 11:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Lunes, Miercoles de 09:00 hs a 13:00 hs.",
+            "Jueves de 08:30 hs a 11:00 hs y de 16:00 hs a 20:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Martes, Viernes de 08:00 hs a 13:00 hs.",
+            "Lunes de 14:00 hs a 16:00 hs.",
+            "Miercoles de 09:30 hs a 13:00 hs.",
+            "Jueves de 15:00 hs a 20:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Miercoles, Jueves, Viernes de 14:30 hs a 18:00 hs.",
+            "Lunes de 14:00 hs a 19:00 hs.",
+            "Martes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Radiología",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves de 08:00 hs a 13:00 hs.",
+            "Viernes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 14:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes, Sabado, Domingo de 00:00 hs a 23:59 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Trabajo Social",
+          "horarios": [
+            "Lunes de 09:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 11:00"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "efector": "Centro de Salud Nº 142 Bombal y Tabanera",
+      "localidad": "Cuadro Nacional",
+      "domicilio": "Ruta 160 km 21",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes de 07:00 hs a 10:00 hs.",
+            "Miercoles de 11:00 hs a 15:00 hs.",
+            "Viernes de 15:30 hs a 21:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Viernes de 12:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes, Jueves de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 14:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 11:00"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "efector": "Centro de Salud Nº 158 Cuadro Nacional",
+      "localidad": "Cuadro Nacional",
+      "domicilio": "Los Cedros y Laprida",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Cardiología",
+          "horarios": [
+            "Jueves de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes de 08:00 hs a 16:30 hs.",
+            "Martes de 08:00 hs a 15:00 hs.",
+            "Miercoles de 08:00 hs a 12:00 hs.",
+            "Jueves de 08:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves de 08:00 hs a 13:00 hs.",
+            "Viernes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Lunes de 14:00 hs a 18:00 hs.",
+            "Viernes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Tocoginecología",
+          "horarios": [
+            "Martes de 10:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes, Miercoles, Jueves, Viernes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Oftalmología",
+          "horarios": [
+            "Jueves de 14:00 hs a 18:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Traumatología",
+          "horarios": [
+            "Martes de 09:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Martes, Miercoles de 09:00 hs a 12:00 hs.",
+            "Jueves de 10:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Urología",
+          "horarios": [
+            "Lunes de 07:15 hs a 10:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Martes, Jueves, Viernes de 13:00 hs a 19:00 hs.",
+            "Lunes de 13:00 hs a 18:00 hs.",
+            "Miercoles de 14:00 hs a 20:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Viernes de 07:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 20:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Trabajo Social",
+          "horarios": [
+            "Martes, Viernes de 08:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "efector": "Centro de Salud Nº 159 Humberto Taranto",
+      "localidad": "San Rafael",
+      "domicilio": "Amapola 95",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Cardiología",
+          "horarios": [
+            "Jueves de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes, Jueves de 12:00 hs a 16:00 hs.",
+            "Martes de 08:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves de 08:00 hs a 13:00 hs.",
+            "Viernes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Neumonología",
+          "horarios": [
+            "Miercoles de 11:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Lunes de 14:00 hs a 18:00 hs.",
+            "Viernes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Martes de 10:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes, Miercoles, Jueves de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Oftalmología",
+          "horarios": [
+            "Jueves de 14:00 hs a 18:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Traumatología",
+          "horarios": [
+            "Lunes de 10:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Martes, Miercoles de 09:00 hs a 12:00 hs.",
+            "Jueves de 10:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Lunes, Miercoles, Viernes de 07:00 hs a 12:00 hs.",
+            "Martes, Jueves de 11:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Martes, Jueves, Viernes de 13:00 hs a 19:00 hs.",
+            "Lunes de 13:00 hs a 18:00 hs.",
+            "Miercoles de 11:00 hs a 19:00 hs.",
+            "Sabado de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Radiología",
+          "horarios": [
+            "Lunes de 13:00 hs a 21:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 14:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 19:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Trabajo Social",
+          "horarios": [
+            "Viernes de 08:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "efector": "Centro de Salud Nº 160 Tres Vientos",
+      "localidad": "Villa Atuel",
+      "domicilio": "Ruta 170",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Miercoles, Viernes de 09:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Jueves de 08:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Martes de 08:30 hs a 13:30 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes de 09:00 hs a 12:00 hs.",
+            "Viernes de 13:00 hs a 18:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Miercoles de 09:30 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Miercoles, Viernes de 07:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Jueves de 07:00 hs a 13:00 hs.",
+            "Miercoles, Viernes de 07:00 hs a 14:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "efector": "Centro de Salud Nº 161 Atuel Norte",
+      "localidad": "Villa Atuel",
+      "domicilio": "Ruta 143",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Lunes de 10:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Miercoles de 08:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Martes de 12:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Martes de 10:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Martes, Jueves de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Viernes de 08:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 14:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes, Miercoles, Viernes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Viernes de 11:30 hs a 14:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "efector": "Centro de Salud Nº 164 Capitán Montoya",
+      "localidad": "Las Paredes",
+      "domicilio": "Sol Naciente s/n",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Miercoles, Viernes de 08:00 hs a 11:00 hs.",
+            "Martes de 08:00 hs a 14:00 hs.",
+            "Jueves de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Lunes, Miercoles, Viernes de 08:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Neumonología",
+          "horarios": [
+            "Miercoles de 14:00 hs a 18:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Martes de 08:00 hs a 13:00 hs.",
+            "Jueves de 14:30 hs a 18:30 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Martes, Jueves de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes, Miercoles, Viernes de 08:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Oftalmología",
+          "horarios": [
+            "Viernes de 14:00 hs a 18:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Traumatología",
+          "horarios": [
+            "Jueves de 17:00 hs a 20:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Lunes de 09:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Urología",
+          "horarios": [
+            "Miercoles de 13:30 hs a 15:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 14:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Trabajo Social",
+          "horarios": [
+            "Miercoles de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "efector": "Centro de Salud Nº 170 La Llave Vieja",
+      "localidad": "La Llave",
+      "domicilio": "Pagola y Ruta 156",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Martes de 13:00 hs a 15:00 hs.",
+            "Jueves de 09:00 hs a 13:00 hs.",
+            "Viernes de 09:30 hs a 11:30 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Viernes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Jueves de 08:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Miercoles de 11:00 hs a 14:00 hs.",
+            "Viernes de 09:30 hs a 13:30 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Jueves de 08:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 14:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 12:00"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "efector": "Centro de Salud Nº 175 El Cerrito",
+      "localidad": "El Cerrito",
+      "domicilio": "Adolfo A. Calle 6395",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Cardiología",
+          "horarios": [
+            "Jueves de 07:30 hs a 13:30 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes, Jueves, Viernes de 07:30 hs a 11:00 hs.",
+            "Miercoles de 12:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Lunes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Miercoles de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Jueves de 10:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Martes, Miercoles, Viernes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Miercoles de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Martes, Jueves, Viernes de 07:30 hs a 09:30 hs.",
+            "Miercoles de 10:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "efector": "Centro de Salud Nº 183 Bº Valle Grande",
+      "localidad": "San Rafael",
+      "domicilio": "Irene Curie y San Lorenzo",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 14:00 hs a 18:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Lunes, Miercoles, Viernes de 08:00 hs a 12:00 hs.",
+            "Jueves de 11:30 hs a 19:30 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Neumonología",
+          "horarios": [
+            "Miercoles de 14:30 hs a 19:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Martes de 10:00 hs a 14:00 hs.",
+            "Jueves de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Martes de 08:00 hs a 12:00 hs.",
+            "Viernes de 14:00 hs a 17:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes, Martes, Viernes de 08:00 hs a 14:00 hs y de 16:00 hs a 20:00 hs.",
+            "Miercoles de 08:00 hs a 14:00 hs y de 16:00 hs a 18:00 hs.",
+            "Jueves de 08:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Oftalmología",
+          "horarios": [
+            "Viernes de 12:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Traumatología",
+          "horarios": [
+            "Martes de 09:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Lunes, Jueves de 15:00 hs a 18:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Martes, Miercoles, Viernes de 08:00 hs a 16:30 hs.",
+            "Lunes, Jueves de 09:00 hs a 16:30 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes, Martes, Jueves, Viernes de 07:30 hs a 13:30 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Radiología",
+          "horarios": [
+            "Jueves de 13:00 hs a 21:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 14:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 20:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        },
+        {
+          "nombre": "Trabajo Social",
+          "horarios": [
+            "Jueves de 15:00 hs a 19:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 08:00"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "efector": "Centro de Salud Nº 320 El Molino",
+      "localidad": "San Rafael",
+      "domicilio": "Velez Sarfield s/n",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Miercoles de 08:00 hs a 12:00 hs.",
+            "Viernes de 10:45 hs a 14:45 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "10/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Miercoles de 12:00 hs a 16:00 hs.",
+            "Jueves de 07:30 hs a 11:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Tocoginecología",
+          "horarios": [
+            "Jueves, Viernes de 13:30 hs a 17:30 hs.",
+            "Lunes de 13:00 hs a 17:00 hs.",
+            "Martes de 10:30 hs a 14:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes de 13:30 hs a 17:30 hs.",
+            "Martes de 08:30 hs a 12:30 hs.",
+            "Miercoles de 11:00 hs a 15:00 hs.",
+            "Jueves de 08:30 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Otorrinolaringología",
+          "horarios": [
+            "Viernes de 09:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "10/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Lunes, Miercoles de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Martes de 12:00 hs a 16:00 hs.",
+            "Miercoles de 07:45 hs a 11:45 hs.",
+            "Viernes de 08:45 hs a 12:45 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "10/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Fonoaudiología",
+          "horarios": [
+            "Martes de 13:00 hs a 17:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "10/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Kinesiología",
+          "horarios": [
+            "Lunes, Jueves de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 11:00"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "efector": "Centro de Salud Nº 324 Los Claveles",
+      "localidad": "Cañada Seca",
+      "domicilio": "Los Claveles s/n",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Cardiología",
+          "horarios": [
+            "Miercoles de 12:30 hs a 16:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Martes de 08:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Viernes de 08:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Tocoginecología",
+          "horarios": [
+            "Lunes de 10:00 hs a 14:00 hs.",
+            "Miercoles de 08:30 hs a 12:03 hs.",
+            "Viernes de 08:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes de 14:30 hs a 18:30 hs.",
+            "Martes de 08:30 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Miercoles de 10:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Viernes de 08:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 11:00"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "efector": "Centro de Salud Nº 325 Ramón Carrillo",
+      "localidad": "San Rafael",
+      "domicilio": "O de Rosas 1475",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes, Martes, Miercoles de 16:00 hs a 18:00 hs.",
+            "Viernes de 08:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Diabetología",
+          "horarios": [
+            "Martes de 08:00 hs a 10:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Lunes de 14:30 hs a 18:30 hs.",
+            "Jueves de 09:30 hs a 13:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Tocoginecología",
+          "horarios": [
+            "Lunes, Martes de 12:00 hs a 16:00 hs.",
+            "Miercoles de 15:00 hs a 17:00 hs.",
+            "Viernes de 13:15 hs a 17:15 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Martes, Miercoles de 09:15 hs a 11:00 hs y de 11:30 hs a 15:30 hs.",
+            "Lunes de 09:15 hs a 11:00 hs y de 15:30 hs a 17:00 hs.",
+            "Jueves de 12:30 hs a 16:00 hs.",
+            "Viernes de 09:15 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Otorrinolaringología",
+          "horarios": [
+            "Miercoles de 09:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "10/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Miercoles de 08:00 hs a 12:00 hs y de 14:00 hs a 16:00 hs.",
+            "Jueves de 10:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes de 10:30 hs a 14:30 hs.",
+            "Miercoles de 09:30 hs a 13:30 hs.",
+            "Viernes de 13:00 hs a 17:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Kinesiología",
+          "horarios": [
+            "Lunes, Miercoles de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "10/05/2021 - 12:00"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "efector": "Centro de Salud Nº 327 Bº Constitución",
+      "localidad": "San Rafael",
+      "domicilio": "Alem 843",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Martes, Jueves de 09:30 hs a 13:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "11/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Lunes de 08:30 hs a 12:30 hs.",
+            "Viernes de 09:30 hs a 13:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "11/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Tocoginecología",
+          "horarios": [
+            "Martes, Viernes de 16:00 hs a 18:00 hs.",
+            "Lunes de 12:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "11/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Jueves de 10:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "11/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes, Miercoles de 08:30 hs a 13:30 hs.",
+            "Jueves de 08:00 hs a 12:00 hs.",
+            "Viernes de 11:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "11/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Otorrinolaringología",
+          "horarios": [
+            "Martes de 09:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "11/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Lunes de 08:00 hs a 12:00 hs y de 14:00 hs a 18:00 hs.",
+            "Martes de 14:00 hs a 16:00 hs.",
+            "Jueves de 09:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "11/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes, Jueves, Viernes de 15:30 hs a 18:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "11/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Fonoaudiología",
+          "horarios": [
+            "Jueves de 13:00 hs a 17:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "11/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Kinesiología",
+          "horarios": [
+            "Martes, Jueves de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "11/05/2021 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "efector": "Centro de Salud Nº 329 Teresa Scagliotti",
+      "localidad": "San Rafael",
+      "domicilio": "Los Plátanos 3000",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Martes, Jueves de 08:30 hs a 12:30 hs.",
+            "Miercoles de 14:30 hs a 16:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "11/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Diabetología",
+          "horarios": [
+            "Jueves de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "11/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Lunes de 07:45 hs a 11:45 hs y de 16:00 hs a 18:00 hs.",
+            "Jueves de 07:45 hs a 11:45 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "11/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Neumonología",
+          "horarios": [
+            "Martes, Jueves de 11:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "11/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Lunes de 15:00 hs a 18:00 hs.",
+            "Martes de 09:30 hs a 13:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "11/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Lunes de 14:00 hs a 16:00 hs.",
+            "Viernes de 09:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "11/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes de 13:30 hs a 17:30 hs.",
+            "Miercoles de 10:00 hs a 14:00 hs.",
+            "Viernes de 09:30 hs a 13:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "11/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Otorrinolaringología",
+          "horarios": [
+            "Viernes de 11:30 hs a 13:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "11/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Lunes, Martes, Miercoles de 08:00 hs a 10:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "11/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes de 09:00 hs a 13:00 hs.",
+            "Miercoles de 08:00 hs a 12:00 hs.",
+            "Viernes de 12:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "11/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Fonoaudiología",
+          "horarios": [
+            "Martes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "11/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Kinesiología",
+          "horarios": [
+            "Lunes de 14:00 hs a 17:00 hs.",
+            "Jueves de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "11/05/2021 - 11:00"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "efector": "Centro de Salud Nº 334 Las Margaritas",
+      "localidad": "San Rafael",
+      "domicilio": "Cajón Las Margarita",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "11/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Lunes de 10:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "11/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Tocoginecología",
+          "horarios": [
+            "Lunes de 09:00 hs a 12:00 hs y de 14:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "11/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Miercoles, Viernes de 08:00 hs a 10:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "11/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes de 08:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "11/05/2021 - 12:00"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "efector": "Centro de Salud Nº 339 Francisca Strologo",
+      "localidad": "Las Paredes",
+      "domicilio": "El Chañaral s/n",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes, Miercoles de 10:30 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "12/05/2021 - 09:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Miercoles de 08:30 hs a 10:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 09:00"
+        },
+        {
+          "nombre": "Tocoginecología",
+          "horarios": [
+            "Lunes de 08:30 hs a 11:30 hs.",
+            "Viernes de 13:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "12/05/2021 - 09:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes de 09:00 hs a 10:00 hs y de 12:30 hs a 15:30 hs.",
+            "Jueves de 09:00 hs a 11:00 hs.",
+            "Viernes de 12:30 hs a 14:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 09:00"
+        },
+        {
+          "nombre": "Otorrinolaringología",
+          "horarios": [
+            "Lunes de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "12/05/2021 - 09:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Jueves de 14:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 09:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Martes de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "12/05/2021 - 09:00"
+        },
+        {
+          "nombre": "Kinesiología",
+          "horarios": [
+            "Miercoles de 13:00 hs a 17:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 09:00"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "efector": "Centro de Salud Nº 340 Manos Unidas La Pichana",
+      "localidad": "Cañada Seca",
+      "domicilio": "Ruta 166 y Luis Rojo",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Cardiología",
+          "horarios": [
+            "Viernes de 12:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes de 08:30 hs a 10:30 hs.",
+            "Martes de 15:00 hs a 17:00 hs.",
+            "Miercoles de 10:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Martes, Viernes de 08:30 hs a 11:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Tocoginecología",
+          "horarios": [
+            "Lunes de 08:30 hs a 10:30 hs y de 13:30 hs a 15:30 hs.",
+            "Jueves de 08:30 hs a 10:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes de 08:30 hs a 10:30 hs.",
+            "Martes de 09:00 hs a 11:00 hs.",
+            "Miercoles de 10:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Lunes, Miercoles, Viernes de 08:00 hs a 10:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes de 11:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Fonoaudiología",
+          "horarios": [
+            "Miercoles de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Kinesiología",
+          "horarios": [
+            "Jueves, Viernes de 08:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "efector": "Centro de Salud Nº 344 Juan Manuel Garcia",
+      "localidad": "Cuadro Nacional",
+      "domicilio": "Ruta 146 Cuadro Bombal",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Martes de 10:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Miercoles, Viernes de 07:30 hs a 12:30 hs.",
+            "Jueves de 08:30 hs a 10:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Viernes de 08:30 hs a 10:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes, Miercoles de 11:30 hs a 13:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Lunes de 08:00 hs a 10:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Martes de 09:00 hs a 11:00 hs.",
+            "Viernes de 14:30 hs a 16:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Kinesiología",
+          "horarios": [
+            "Lunes de 08:30 hs a 10:30 hs.",
+            "Viernes de 08:20 hs a 10:20 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "efector": "Centro de Salud Nº 345 Colonia Gelman",
+      "localidad": "La Llave",
+      "domicilio": "No informa",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes de 16:00 hs a 18:00 hs.",
+            "Viernes de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Tocoginecología",
+          "horarios": [
+            "Miercoles de 08:30 hs a 10:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Martes de 08:30 hs a 10:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "efector": "Centro de Salud Nº 346 Los Coroneles",
+      "localidad": "Cuadro Benegas",
+      "domicilio": "Cjon. Gomenzoro s/n",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Viernes de 10:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Martes de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Lunes de 08:00 hs a 10:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Jueves de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "efector": "Centro de Salud Nº 347 Santa Teresita de los Andes",
+      "localidad": "San Rafael",
+      "domicilio": "Paula A. de Sarmiento 1288",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes de 07:30 hs a 11:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Martes de 10:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Tocoginecología",
+          "horarios": [
+            "Lunes de 11:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Jueves de 08:30 hs a 10:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Fonoaudiología",
+          "horarios": [
+            "Lunes, Sabado de 08:00 hs a 10:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "efector": "Centro de Salud Nº 348 Colonia Española",
+      "localidad": "Cuadro Nacional",
+      "domicilio": "RutA Prov. 167",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Miercoles de 09:30 hs a 11:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Viernes de 12:30 hs a 14:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "12/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Jueves de 10:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 11:00"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "efector": "Centro de Salud Nº 349 Dr. Albert Sabin",
+      "localidad": "San Rafael",
+      "domicilio": "Fleming s/n",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Martes, Viernes de 08:00 hs a 10:00 hs.",
+            "Lunes de 14:30 hs a 16:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Diabetología",
+          "horarios": [
+            "Viernes de 08:00 hs a 10:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Lunes de 09:00 hs a 11:00 hs y de 11:30 hs a 13:30 hs.",
+            "Jueves de 08:30 hs a 10:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Lunes de 09:00 hs a 11:00 hs.",
+            "Miercoles de 09:30 hs a 11:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Tocoginecología",
+          "horarios": [
+            "Lunes, Viernes de 15:00 hs a 17:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes, Miercoles de 12:30 hs a 14:30 hs.",
+            "Jueves de 09:30 hs a 11:30 hs.",
+            "Viernes de 16:00 hs a 18:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Otorrinolaringología",
+          "horarios": [
+            "Jueves de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Martes de 08:00 hs a 10:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Martes, Jueves de 14:30 hs a 16:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Fonoaudiología",
+          "horarios": [
+            "Lunes de 13:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "efector": "Posta Sanitaria Nº 350 La Guevarina",
+      "localidad": "Villa Atuel",
+      "domicilio": "No informa",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Jueves de 11:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Martes de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Viernes de 08:30 hs a 10:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "efector": "Centro de Salud Nº 351 El Tropezón",
+      "localidad": "Cañada Seca",
+      "domicilio": "No informa",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Cardiología",
+          "horarios": [
+            "Viernes de 12:30 hs a 14:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes de 08:00 hs a 10:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Lunes de 09:00 hs a 11:00 hs.",
+            "Viernes de 10:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Miercoles de 10:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Tocoginecología",
+          "horarios": [
+            "Miercoles de 09:30 hs a 11:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Martes, Miercoles de 07:00 hs a 09:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Jueves de 08:30 hs a 10:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Viernes de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "efector": "Centro de Salud Nº 354 La Llave Sur",
+      "localidad": "La Llave",
+      "domicilio": "No informa",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Martes, Jueves de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Martes de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Tocoginecología",
+          "horarios": [
+            "Miercoles de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Martes de 10:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes de 15:00 hs a 17:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "efector": "Centro de Salud Nº 359 Las Malvinas Sur",
+      "localidad": "Las Malvinas",
+      "domicilio": "Ruta 175 Calle 17",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Jueves de 10:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Jueves de 09:30 hs a 11:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Martes de 10:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Martes de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes de 08:15 hs a 10:15 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "12/05/2021 - 12:00"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "efector": "Centro de Salud Nº 360 Jesus Nazareno Riera",
+      "localidad": "Cañada Seca",
+      "domicilio": "La Calle Larga",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Viernes de 15:00 hs a 17:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "13/05/2021 - 09:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Miercoles de 10:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "13/05/2021 - 09:00"
+        },
+        {
+          "nombre": "Tocoginecología",
+          "horarios": [
+            "Martes de 08:30 hs a 10:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "13/05/2021 - 09:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Martes de 14:30 hs a 16:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "13/05/2021 - 09:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Viernes de 08:30 hs a 10:30 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "13/05/2021 - 09:00"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "efector": "Centro de Salud Nº 361 El Escorial",
+      "localidad": "Las Malvinas",
+      "domicilio": "No informa",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Jueves de 08:00 hs a 10:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "13/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Jueves de 12:30 hs a 14:30 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "13/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Lunes de 09:15 hs a 11:15 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "13/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Martes de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "13/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Sabado de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "13/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Viernes de 08:00 hs a 10:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "13/05/2021 - 11:00"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "efector": "Posta Sanitaria Nº 513 San Fco. Javier",
+      "localidad": "Las Paredes",
+      "domicilio": "No informa",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Cardiología",
+          "horarios": [
+            "Miercoles de 12:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "13/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Martes, Jueves de 07:00 hs a 09:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "13/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Miercoles de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "13/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Lunes de 09:30 hs a 11:30 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "13/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes de 10:30 hs a 14:00 hs.",
+            "Martes de 11:30 hs a 13:30 hs.",
+            "Viernes de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "13/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Lunes, Martes de 08:00 hs a 10:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "13/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Martes, Miercoles, Jueves de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "13/05/2021 - 11:00"
+        },
+        {
+          "nombre": "Kinesiología",
+          "horarios": [
+            "Viernes de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "13/05/2021 - 11:00"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "efector": "Posta Sanitaria Nº 514 Virgen del Carmen",
+      "localidad": "Las Paredes",
+      "domicilio": "El Toledano",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Viernes de 08:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "13/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Viernes de 12:30 hs a 14:30 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "13/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Miercoles de 09:30 hs a 11:30 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "13/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Tocoginecología",
+          "horarios": [
+            "Miercoles de 08:00 hs a 10:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "13/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Miercoles de 09:00 hs a 11:00 hs.",
+            "Jueves de 09:00 hs a 11:00 hs y de 12:00 hs a 14:00 hs.",
+            "Viernes de 12:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "13/05/2021 - 12:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Lunes, Martes de 08:00 hs a 10:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "13/05/2021 - 12:00"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "efector": "Posta Sanitaria Nº 536 Pobre Diablo",
+      "localidad": "Rama Caída",
+      "domicilio": "No informa",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Martes, Miercoles de 10:30 hs a 12:30 hs.",
+            "Lunes de 08:00 hs a 12:30 hs.",
+            "Viernes de 07:30 hs a 11:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Martes, Viernes de 07:30 hs a 11:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Viernes de 09:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Lunes de 10:00 hs a 13:00 hs.",
+            "Jueves de 09:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Martes, Miercoles de 09:00 hs a 12:00 hs.",
+            "Jueves de 09:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Miercoles, Jueves, Viernes de 09:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes, Miercoles de 08:30 hs a 13:00 hs.",
+            "Martes, Jueves, Viernes de 12:30 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 14:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes, Sabado de 07:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "efector": "Posta Sanitaria Nº 537 Palermo Chico",
+      "localidad": "Ignorado",
+      "domicilio": "No informa",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Lunes, Viernes de 07:30 hs a 13:30 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Jueves de 09:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 09:00"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "efector": "Posta Sanitaria Nº 538 Dr. René Favaloro",
+      "localidad": "Villa Atuel",
+      "domicilio": "No informa",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Miercoles de 10:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "17/05/2016 - 11:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Jueves de 10:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "17/05/2016 - 11:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Lunes de 08:00 hs a 10:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "17/05/2016 - 11:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Miercoles de 10:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "17/05/2016 - 11:00"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "efector": "Posta Sanitaria Nº 539 Santa Lucía",
+      "localidad": "Ignorado",
+      "domicilio": "No informa",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Martes de 16:00 hs a 18:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Martes de 09:30 hs a 11:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Viernes de 08:30 hs a 11:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Miercoles de 08:00 hs a 10:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Lunes de 08:30 hs a 10:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Martes de 09:00 hs a 11:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "efector": "Centro de Rehabilitación Nº 541 Dr. Marcelo Hoffmann",
+      "localidad": "Ignorado",
+      "domicilio": "No informa",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Kinesiología",
+          "horarios": [
+            "Martes, Jueves de 07:00 hs a 09:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "efector": "Posta Sanitaria Nº 542 Barrio Municipal",
+      "localidad": "Ignorado",
+      "domicilio": "No informa",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Martes de 12:30 hs a 14:30 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Martes de 12:00 hs a 14:00 hs.",
+            "Jueves de 11:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Martes de 08:00 hs a 10:00 hs.",
+            "Jueves de 10:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Lunes de 14:00 hs a 16:00 hs.",
+            "Jueves de 08:00 hs a 10:00 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Martes de 10:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "efector": "Posta Sanitaria Nº 557 Arrollo de los Caballos",
+      "localidad": "Punta de Agua",
+      "domicilio": "Paraje de los Toldos",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes de 09:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Kinesiología",
+          "horarios": [
+            "Lunes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "efector": "Posta Sanitaria Nº 558 Dr. Marrelli",
+      "localidad": "Real del Padre",
+      "domicilio": "No informa",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Martes de 17:00 hs a 19:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Martes de 10:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Lunes, Jueves de 16:00 hs a 18:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Lunes de 14:30 hs a 16:30 hs.",
+            "Miercoles de 08:30 hs a 10:30 hs."
+          ],
+          "turnosProgramados": "Personalmente y programada",
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        },
+        {
+          "nombre": "Kinesiología",
+          "horarios": [
+            "Lunes, Miercoles, Jueves de 11:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "Personalmente",
+          "fechaActualizacion": "14/05/2021 - 10:00"
+        }
+      ]
     }
   ]
 }
