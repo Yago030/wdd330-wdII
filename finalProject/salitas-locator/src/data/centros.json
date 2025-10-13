@@ -1,0 +1,274 @@
+{
+  "centros": [
+    {
+      "id": 1,
+      "efector": "Centro de Salud Nº 107 25 de Mayo",
+      "localidad": "25 de Mayo",
+      "domicilio": "9 de Julio S/N",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": true,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes, Miercoles de 13:30 hs a 18:30 hs.",
+            "Martes, Viernes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 9:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Lunes de 10:30 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 9:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Martes de 14:00 hs a 18:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 9:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Miercoles de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 9:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Martes, Jueves de 08:00 hs a 12:00 hs.",
+            "Lunes de 15:00 hs a 18:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 9:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Lunes de 09:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 9:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Martes, Jueves, Viernes de 12:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 9:00"
+        },
+        {
+          "nombre": "Laboratorio General",
+          "horarios": [
+            "Lunes de 07:00 hs a 09:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 9:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 14:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 9:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes, Sabado, Domingo de 00:00 hs a 23:59 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 9:00"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "efector": "Centro de Salud Nº 108 Goudge",
+      "localidad": "Goudge",
+      "domicilio": "Moreno y Urquiza",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Miercoles de 09:00 hs a 13:00 hs.",
+            "Jueves de 12:00 hs a 19:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Lunes de 09:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Jueves de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Martes de 11:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes, Martes de 10:30 hs a 13:30 hs.",
+            "Miercoles de 08:00 hs a 12:00 hs.",
+            "Jueves de 08:00 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Jueves de 09:30 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Lunes, Martes, Miercoles de 08:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes, Martes, Jueves de 08:00 hs a 12:00 hs.",
+            "Viernes de 08:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 14:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 06:30 hs a 20:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Trabajo Social",
+          "horarios": [
+            "Jueves de 09:30 hs a 14:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "efector": "Centro de Salud Nº 109 Las Malvinas",
+      "localidad": "Las Malvinas",
+      "domicilio": "Brasil S/N",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Miercoles de 08:30 hs a 14:00 hs.",
+            "Jueves de 09:30 hs a 13:30 hs.",
+            "Viernes de 08:00 hs a 13:30 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Miercoles de 07:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Miercoles de 08:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Martes, Jueves de 09:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes, Miercoles, Viernes de 08:30 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 14:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 14:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        }
+      ]
+    }
+  ]
+}

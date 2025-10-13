@@ -1,12 +1,10 @@
 
-/* CSS Variables - Medical Color Palette */
 :root {
   --medical-blue-dark: #0c4a6e;
   --medical-blue-medium: #0284c7;
   --medical-blue-light: #0ea5e9;
   --medical-cyan: #06b6d4;
   
-  /* Medical Background Colors */
   --medical-bg-primary: #f0fdf4;
   --medical-bg-secondary: #dcfce7;
   --medical-bg-white: rgba(255, 255, 255, 0.9);
@@ -296,7 +294,6 @@ header {
 
 }
 
-/* FAQ Styles */
 .faq-section {
   background: var(--medical-gradient-bg);
   padding: 4rem 1rem;
@@ -546,7 +543,6 @@ header {
   }
 }
 
-/* Contact Section Styles */
 .contact-container {
   background: var(--medical-gradient-bg);
   padding: 4rem 1rem;
@@ -823,6 +819,862 @@ header {
   
   .textarea-wrapper .input-icon {
     top: 1.25rem;
+  }
+}
+
+.centros-section {
+  background: var(--medical-gradient-bg);
+  padding: 4rem 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.centros-wrapper {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.centros-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.centros-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--medical-text-primary);
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  background: var(--medical-gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.centros-subtitle {
+  color: var(--medical-text-secondary);
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.centros-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (min-width: 768px) {
+  .centros-container {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .centro-card {
+    min-height: 450px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .centros-container {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2.5rem;
+  }
+  
+  .centro-card {
+    min-height: 480px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .centros-container {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    gap: 3rem;
+  }
+  
+  .centro-card {
+    min-height: 500px;
+  }
+}
+
+.centro-card {
+  background: var(--medical-bg-white);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--medical-border-white);
+  border-radius: 20px;
+  padding: 1.25rem;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.08),
+    0 0 0 1px rgba(255, 255, 255, 0.2);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 400px;
+}
+
+.centro-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--medical-gradient-bar);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.centro-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.12),
+    0 0 0 1px rgba(255, 255, 255, 0.3);
+}
+
+.centro-card:hover::before {
+  transform: scaleX(1);
+}
+
+.centro-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.5);
+  flex-shrink: 0;
+}
+
+.centro-icon {
+  color: var(--medical-blue-medium);
+  background: var(--medical-shadow-light);
+  padding: 0.75rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.centro-info {
+  flex: 1;
+}
+
+.centro-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--medical-text-primary);
+  margin: 0 0 0.25rem 0;
+  line-height: 1.2;
+}
+
+.centro-location {
+  color: var(--medical-text-secondary);
+  font-size: 0.875rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+.centro-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  flex-shrink: 0;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  transition: background 0.3s ease;
+}
+
+.detail-item:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.detail-icon {
+  color: var(--medical-blue-medium);
+  flex-shrink: 0;
+}
+
+.detail-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.detail-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--medical-text-secondary);
+}
+
+.detail-value {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--medical-text-primary);
+}
+
+.centro-services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  flex-shrink: 0;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.service-item.available {
+  background: rgba(34, 197, 94, 0.1);
+  border: 1px solid rgba(34, 197, 94, 0.2);
+}
+
+.service-item.unavailable {
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+.service-icon {
+  flex-shrink: 0;
+}
+
+.service-item.available .service-icon {
+  color: #22c55e;
+}
+
+.service-item.unavailable .service-icon {
+  color: #ef4444;
+}
+
+.service-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.service-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--medical-text-secondary);
+}
+
+.service-status {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.service-item.available .service-status {
+  color: #22c55e;
+}
+
+.service-item.unavailable .service-status {
+  color: #ef4444;
+}
+
+.centro-specialties {
+  border-top: 1px solid rgba(226, 232, 240, 0.5);
+  padding-top: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.specialties-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.specialties-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--medical-blue-medium);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.specialties-toggle:hover {
+  background: var(--medical-blue-dark);
+  transform: translateY(-1px);
+}
+
+.toggle-icon {
+  transition: transform 0.3s ease;
+}
+
+.toggle-icon svg {
+  transition: transform 0.3s ease;
+}
+
+.specialties-list {
+  display: none;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.specialties-list.visible {
+  display: flex;
+}
+
+.especialidad-item {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(226, 232, 240, 0.5);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.especialidad-item:hover {
+  background: rgba(255, 255, 255, 0.8);
+  border-color: var(--medical-border-light);
+}
+
+.especialidad-item.active {
+  background: var(--medical-bg-white-solid);
+  border-color: var(--medical-blue-medium);
+  box-shadow: 0 4px 12px var(--medical-shadow-light);
+}
+
+.especialidad-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  transition: all 0.3s ease;
+}
+
+.especialidad-header:hover {
+  background: var(--medical-shadow-light);
+}
+
+.especialidad-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--medical-text-primary);
+  margin: 0;
+}
+
+.especialidad-icon {
+  color: var(--medical-text-muted);
+  transition: all 0.3s ease;
+}
+
+.especialidad-item:hover .especialidad-icon {
+  color: var(--medical-blue-medium);
+}
+
+.especialidad-item.active .especialidad-icon {
+  color: var(--medical-blue-medium);
+}
+
+.especialidad-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.especialidad-item.active .especialidad-details {
+  max-height: 500px;
+}
+
+.especialidad-info {
+  padding: 0 1.25rem 1.25rem 1.25rem;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.1s;
+}
+
+.especialidad-item.active .especialidad-info {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.info-section {
+  margin-bottom: 1rem;
+}
+
+.info-section:last-child {
+  margin-bottom: 0;
+}
+
+.info-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--medical-text-secondary);
+  margin: 0 0 0.5rem 0;
+}
+
+.info-value {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--medical-text-primary);
+}
+
+.info-value.available {
+  color: #22c55e;
+}
+
+.info-value.unavailable {
+  color: #ef4444;
+}
+
+.horarios-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.horarios-list li {
+  font-size: 1rem;
+  color: var(--medical-text-primary);
+  padding: 0.25rem 0;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.horarios-list li::before {
+  content: '•';
+  color: var(--medical-blue-medium);
+  position: absolute;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .centros-section {
+    padding: 3rem 1rem;
+  }
+  
+  .centros-title {
+    font-size: 2rem;
+  }
+  
+  .centros-subtitle {
+    font-size: 1rem;
+  }
+  
+  .centro-card {
+    padding: 1rem;
+    min-height: 350px;
+  }
+  
+  .centro-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+  
+  .centro-name {
+    font-size: 1.125rem;
+  }
+  
+  .centro-location {
+    font-size: 0.8rem;
+  }
+  
+  .centro-services {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .centro-details {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .detail-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.25rem;
+    padding: 0.5rem;
+  }
+  
+  .detail-label {
+    font-size: 0.7rem;
+  }
+  
+  .detail-value {
+    font-size: 0.8rem;
+  }
+  
+  .service-label {
+    font-size: 0.7rem;
+  }
+  
+  .service-status {
+    font-size: 0.7rem;
+  }
+  
+  .centro-specialties {
+    padding-top: 0.75rem;
+  }
+  
+  .specialties-header {
+    justify-content: center;
+    margin-bottom: 0.75rem;
+  }
+  
+  .specialties-toggle {
+    justify-content: center;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+  }
+}
+
+.specialties-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: modalFadeIn 0.3s ease-out;
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.modal-content {
+  background: var(--medical-bg-white);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--medical-border-white);
+  border-radius: 20px;
+  box-shadow: 
+    0 20px 60px rgba(0, 0, 0, 0.15),
+    0 0 0 1px rgba(255, 255, 255, 0.2);
+  max-width: 800px;
+  width: 100%;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  animation: modalSlideIn 0.3s ease-out;
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes modalSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.modal-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--medical-gradient-bar);
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.5);
+  flex-shrink: 0;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--medical-text-primary);
+  margin: 0;
+}
+
+.modal-close {
+  background: none;
+  border: none;
+  color: var(--medical-text-muted);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-close:hover {
+  background: var(--medical-shadow-light);
+  color: var(--medical-text-primary);
+  transform: scale(1.1);
+}
+
+.modal-body {
+  padding: 2rem;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.loading {
+  text-align: center;
+  color: var(--medical-text-secondary);
+  font-style: italic;
+  padding: 2rem;
+}
+
+.no-specialties,
+.error {
+  text-align: center;
+  color: var(--medical-text-secondary);
+  padding: 2rem;
+  font-style: italic;
+}
+
+.error {
+  color: #ef4444;
+}
+
+.specialties-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.modal-especialidad-item {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(226, 232, 240, 0.5);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.modal-especialidad-item:hover {
+  background: rgba(255, 255, 255, 0.8);
+  border-color: var(--medical-border-light);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px var(--medical-shadow-light);
+}
+
+.modal-especialidad-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  transition: all 0.3s ease;
+  background: var(--medical-shadow-light);
+}
+
+.modal-especialidad-header:hover {
+  background: var(--medical-shadow-medium);
+}
+
+.modal-especialidad-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--medical-text-primary);
+  margin: 0;
+}
+
+.modal-especialidad-icon {
+  color: var(--medical-text-muted);
+  transition: all 0.3s ease;
+}
+
+.modal-especialidad-item:hover .modal-especialidad-icon {
+  color: var(--medical-blue-medium);
+}
+
+.modal-especialidad-details {
+  padding: 0 2rem 2rem 2rem;
+  display: none;
+}
+
+.modal-especialidad-item.active .modal-especialidad-details {
+  display: block;
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 500px;
+  }
+}
+
+.modal-info-section {
+  margin-bottom: 1.5rem;
+}
+
+.modal-info-section:last-child {
+  margin-bottom: 0;
+}
+
+.modal-info-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--medical-text-secondary);
+  margin: 0 0 0.75rem 0;
+}
+
+.modal-info-value {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--medical-text-primary);
+}
+
+.modal-info-value.available {
+  color: #22c55e;
+}
+
+.modal-info-value.unavailable {
+  color: #ef4444;
+}
+
+.modal-horarios-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.modal-horarios-list li {
+  font-size: 1rem;
+  color: var(--medical-text-primary);
+  padding: 0.5rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.3);
+}
+
+.modal-horarios-list li:last-child {
+  border-bottom: none;
+}
+
+.modal-horarios-list li::before {
+  content: '•';
+  color: var(--medical-blue-medium);
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .modal-overlay {
+    padding: 0.5rem;
+  }
+  
+  .modal-content {
+    max-height: 95vh;
+    border-radius: 16px;
+  }
+  
+  .modal-header {
+    padding: 1rem 1.5rem;
+  }
+  
+  .modal-title {
+    font-size: 1.25rem;
+  }
+  
+  .modal-body {
+    padding: 1.5rem;
+  }
+  
+  .modal-especialidad-header {
+    padding: 1rem 1.5rem;
+  }
+  
+  .modal-especialidad-name {
+    font-size: 1.125rem;
+  }
+  
+  .modal-especialidad-details {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+  }
+  
+  .modal-info-section {
+    margin-bottom: 1rem;
+  }
+  
+  .modal-info-title {
+    font-size: 0.9rem;
+  }
+  
+  .modal-info-value {
+    font-size: 0.9rem;
+  }
+  
+  .modal-horarios-list li {
+    font-size: 0.9rem;
+    padding: 0.4rem 0;
   }
 }
 
