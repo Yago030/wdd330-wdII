@@ -1,7 +1,7 @@
-import salitasData from '../../data/salitas.json';
+import centrosData from '../../data/centros.json';
 
 export const dataLoader = {
   async loadSalitas() {
-    return salitasData.salitas;
+    return centrosData.centros;
   }
 };

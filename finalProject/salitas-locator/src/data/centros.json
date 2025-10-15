@@ -8,6 +8,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": true,
+      "coordenadas": {
+        "lat": -34.580877,
+        "lng": -68.539084
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -102,6 +106,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.680561,
+        "lng": -68.131684
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -207,6 +215,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.833094,
+        "lng": -68.250140
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -278,6 +290,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.702824,
+        "lng": -68.027478
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -370,6 +386,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.640595,
+        "lng": -68.013486
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -446,6 +466,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.513656,
+        "lng": -68.420845
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -516,6 +540,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.591821,
+        "lng": -67.883434
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -623,6 +651,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.831453,
+        "lng": -67.923693
+      },
       "especialidades": [
         {
           "nombre": "Cardiología",
@@ -737,6 +769,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.844280,
+        "lng": -67.766304
+      },
       "especialidades": [
         {
           "nombre": "Ginecología",
@@ -798,6 +834,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.623121,
+        "lng": -68.440074
+      },
       "especialidades": [
         {
           "nombre": "Cardiología",
@@ -901,6 +941,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -35.031366,
+        "lng": -68.675335
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -985,6 +1029,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -35.080241,
+        "lng": -69.582696
+      },
       "especialidades": [
         {
           "nombre": "Ginecología",
@@ -1054,6 +1102,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.692514,
+        "lng": -68.365604
+      },
       "especialidades": [
         {
           "nombre": "Cardiología",
@@ -1150,6 +1202,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -35.528080,
+        "lng": -68.076359
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -1201,6 +1257,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.722889,
+        "lng": -68.228344
+      },
       "especialidades": [
         {
           "nombre": "Cardiología",
@@ -1356,6 +1416,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.652190,
+        "lng": -68.236720
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -1410,6 +1474,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.612642,
+        "lng": -68.272852
+      },
       "especialidades": [
         {
           "nombre": "Cardiología",
@@ -1542,6 +1610,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.646138,
+        "lng": -68.375455
+      },
       "especialidades": [
         {
           "nombre": "Cardiología",
@@ -1691,6 +1763,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.754069,
+        "lng": -68.338624
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -1761,6 +1837,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.788357,
+        "lng": -67.987909
+      },
       "especialidades": [
         {
           "nombre": "Ginecología",
@@ -1853,6 +1933,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.584631,
+        "lng": -68.456248
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -1964,6 +2048,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.638682,
+        "lng": -68.009011
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -2027,6 +2115,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.556385,
+        "lng": -68.301854
+      },
       "especialidades": [
         {
           "nombre": "Cardiología",
@@ -2120,6 +2212,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.635382,
+        "lng": -68.337812
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -2422,6 +2518,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.628529,
+        "lng": -68.311383
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -2515,6 +2615,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.608326,
+        "lng": -68.323368
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -2612,6 +2716,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.637260,
+        "lng": -68.375796
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -2728,6 +2836,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.645945,
+        "lng": -68.334615
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -2857,6 +2969,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.675031,
+        "lng": -68.230928
+      },
       "especialidades": [
         {
           "nombre": "Cardiología",
@@ -2945,6 +3061,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.605846,
+        "lng": -68.317055
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -3051,6 +3171,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.605846,
+        "lng": -68.317055
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -3094,6 +3218,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.605846,
+        "lng": -68.317055
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -3145,6 +3273,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.533493,
+        "lng": -68.196864
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -3438,6 +3570,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.923652,
+        "lng": -68.247843
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -3489,6 +3625,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.748786,
+        "lng": -68.104547
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -3676,6 +3816,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.564146,
+        "lng": -68.362644
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -4036,6 +4180,10 @@
       "telefono": "No informa",
       "farmacia": false,
       "laboratorio": false,
+      "coordenadas": {
+        "lat": -35.528080,
+        "lng": -68.076359
+      },
       "especialidades": [
         {
           "nombre": "Clínica Médica",
@@ -4112,6 +4260,451 @@
           ],
           "turnosProgramados": "Personalmente",
           "fechaActualizacion": "14/05/2021 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "efector": "Centro de Salud Nº 110 María Luna (Colonia Elena)",
+      "localidad": "Cuadro Nacional",
+      "domicilio": "Calle Pública S/N Km 165",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.702824,
+        "lng": -68.027478
+      },
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Martes de 13:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Viernes de 07:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Jueves de 09:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Miercoles de 11:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes, Miercoles de 08:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Lunes de 09:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Lunes, Viernes de 09:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Miercoles de 08:00 hs a 10:00 hs.",
+            "Viernes de 09:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes, Sabado de 08:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes, Sabado de 08:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "08/01/2024 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "efector": "Centro de Salud Nº 113 Floreal Marotta (Monte Coman)",
+      "localidad": "Monte Comán",
+      "domicilio": "Av. Mendoza S/N",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.591821,
+        "lng": -67.883434
+      },
+      "especialidades": [
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Lunes, Miercoles, Viernes de 13:00 hs a 17:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Lunes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Martes de 08:30 hs a 12:30 hs.",
+            "Viernes de 09:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Lunes de 13:00 hs a 17:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes de 08:00 hs a 12:00 hs.",
+            "Martes de 09:00 hs a 12:00 hs.",
+            "Jueves de 09:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Traumatología",
+          "horarios": [
+            "Martes de 11:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Martes de 09:30 hs a 12:30 hs.",
+            "Miercoles de 17:00 hs a 19:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Lunes de 08:00 hs a 12:00 hs.",
+            "Martes de 12:00 hs a 16:00 hs.",
+            "Miercoles de 10:30 hs a 14:30 hs.",
+            "Jueves de 15:00 hs a 21:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes, Miercoles de 08:00 hs a 13:00 hs.",
+            "Jueves de 09:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes, Sabado, Domingo de 00:00 hs a 23:59 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Trabajo Social",
+          "horarios": [
+            "Martes de 09:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "efector": "Centro de Salud Nº 115 Real Del Padre",
+      "localidad": "Real del Padre",
+      "domicilio": "Neuquén S/N",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.844280,
+        "lng": -67.766304
+      },
+      "especialidades": [
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Lunes de 12:00 hs a 16:00 hs.",
+            "Miercoles de 09:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 8:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 8:00"
+        },
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves de 14:00 hs a 18:00 hs.",
+            "Viernes de 14:00 hs a 17:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 8:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 8:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 15:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 8:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes, Sabado, Domingo de 00:00 hs a 23:59 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 8:00"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "efector": "Centro de Salud Nº 118 El Sosneado",
+      "localidad": "Cuadro Benegas",
+      "domicilio": "Ejército de los Andes S/N",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "coordenadas": {
+        "lat": -35.080241,
+        "lng": -69.582696
+      },
+      "especialidades": [
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Jueves de 12:30 hs a 18:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Miercoles de 08:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Jueves de 12:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Medicina de Familia",
+          "horarios": [
+            "Lunes, Miercoles de 17:00 hs a 20:00 hs.",
+            "Jueves de 17:00 hs a 19:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Jueves de 08:30 hs a 12:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 08:00 hs a 18:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 11:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Martes, Miercoles, Jueves, Viernes, Sabado, Domingo de 00:00 hs a 23:59 hs.",
+            "Lunes de 00:00 hs a 23:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 11:00"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "efector": "Centro de Salud Nº 119 Rama Caida",
+      "localidad": "Rama Caída",
+      "domicilio": "Urquiza 249",
+      "telefono": "No informa",
+      "farmacia": false,
+      "laboratorio": false,
+      "coordenadas": {
+        "lat": -34.692514,
+        "lng": -68.365604
+      },
+      "especialidades": [
+        {
+          "nombre": "Cardiología",
+          "horarios": [
+            "Jueves de 07:30 hs a 13:30 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Clínica Médica",
+          "horarios": [
+            "Martes, Miercoles, Jueves, Viernes de 08:00 hs a 12:00 hs.",
+            "Lunes de 08:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Ginecología",
+          "horarios": [
+            "Martes, Jueves de 08:00 hs a 13:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Nutrición",
+          "horarios": [
+            "Miercoles de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Obstetricia",
+          "horarios": [
+            "Lunes de 08:00 hs a 12:00 hs.",
+            "Jueves de 11:00 hs a 16:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Odontología",
+          "horarios": [
+            "Martes, Miercoles, Jueves, Viernes de 08:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Psicología",
+          "horarios": [
+            "Martes de 15:00 hs a 18:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Pediatría",
+          "horarios": [
+            "Lunes, Miercoles, Jueves, Viernes de 07:00 hs a 12:00 hs.",
+            "Martes de 07:00 hs a 14:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Agente Sanitario",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 19:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": false,
+          "fechaActualizacion": "06/01/2024 - 10:00"
+        },
+        {
+          "nombre": "Enfermería",
+          "horarios": [
+            "Lunes, Martes, Miercoles, Jueves, Viernes de 07:00 hs a 20:00 hs.",
+            "Sabado de 07:00 hs a 12:00 hs."
+          ],
+          "turnosProgramados": "PARTICULAR",
+          "fechaActualizacion": "06/01/2024 - 10:00"
         }
       ]
     }

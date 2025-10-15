@@ -33,9 +33,8 @@ export const header = {
         <nav id="mainNav">
           <a href="#inicio">Inicio</a>
           <a href="#about">Nosotros</a>
-          <a href="#mapa">Mapa</a>
           <a href="#centros">Centros</a>
-          <a href="#contacto">Contacto</a>
+          <a href="#contact">Contacto</a>
         </nav>
       `;
 
@@ -51,6 +50,26 @@ export const header = {
     overlay.addEventListener('click', () => {
       menu.classList.remove('open');
       overlay.classList.remove('visible');
+    });
+
+    const navLinks = headerEl.querySelectorAll('nav a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute('href').substring(1);
+        
+        menu.classList.remove('open');
+        overlay.classList.remove('visible');
+        
+        if (targetId === 'inicio') {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+          const targetElement = document.getElementById(targetId);
+          if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      });
     });
 
     return headerEl;
