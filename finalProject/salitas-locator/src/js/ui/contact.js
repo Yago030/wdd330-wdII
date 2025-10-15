@@ -95,7 +95,7 @@ export const contact = {
     const data = Object.fromEntries(formData);
     
     // Aquí podrías enviar los datos a un servidor
-    console.log('Datos del formulario:', data);
+    // console.log('Datos del formulario:', data);
     
     // Mostrar mensaje de éxito
     alert('¡Mensaje enviado correctamente! Te responderemos pronto.');

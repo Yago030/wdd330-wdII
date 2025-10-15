@@ -11,6 +11,6 @@ export const markers = {
   },
 
   addMarker(item) {
-    console.log('Adding marker for:', item);
+    // console.log('Adding marker for:', item);
   }
 };

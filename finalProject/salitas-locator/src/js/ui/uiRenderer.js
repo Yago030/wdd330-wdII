@@ -1,5 +1,6 @@
 import { header } from './header.js';
 import { hero } from './hero.js';
+import { map } from './map.js';
 import { footer } from './footer.js';
 import { faq } from './faq.js';
 import { contact } from './contact.js';
@@ -18,6 +19,7 @@ export const uiRenderer = {
     const headerEl = header.render();
     const heroEl = hero.render();
     const aboutUsEl = aboutUs.render();
+    const mapEl = await map.render();
     const centrosEl = await centros.render();
     const faqEl = faq.render();
     const footerEl = footer.render();
@@ -26,6 +28,7 @@ export const uiRenderer = {
     app.appendChild(headerEl);
     app.appendChild(heroEl);
     app.appendChild(aboutUsEl);
+    app.appendChild(mapEl);
     app.appendChild(centrosEl);
     app.appendChild(faqEl);
     app.appendChild(contactEl);

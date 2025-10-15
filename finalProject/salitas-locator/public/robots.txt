@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://tu-salita.netlify.app/sitemap.xml
+
+# Crawl-delay (opcional, en segundos)
+Crawl-delay: 1
+
+# Permitir indexación de todas las páginas
+Disallow:

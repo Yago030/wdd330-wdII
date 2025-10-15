@@ -1,3 +1,6 @@
+import { favoritesManager } from '../utils/favorites.js';
+import { routingService } from '../utils/routing.js';
+
 export const centros = {
   currentPage: 1,
   itemsPerPage: 10,
@@ -128,12 +131,10 @@ export const centros = {
       this.addPaginationListeners();
     }
     
-    // Scroll suave hacia la sección de centros
     this.scrollToCentrosSection();
   },
 
   scrollToCentrosSection() {
-    // Pequeño delay para asegurar que el contenido se haya renderizado
     setTimeout(() => {
       const centrosSection = document.getElementById('centros');
       if (centrosSection) {
@@ -148,6 +149,8 @@ export const centros = {
   addEventListeners(element) {
     this.addSpecialtyAccordion(element);
     this.addPaginationListeners();
+    this.addFavoritesListeners();
+    this.addRouteListeners();
   },
 
   addPaginationListeners() {
@@ -157,6 +160,37 @@ export const centros = {
         btn.addEventListener('click', () => {
           const page = parseInt(btn.getAttribute('data-page'));
           this.updatePage(page);
+        });
+      });
+    }, 0);
+  },
+
+  addFavoritesListeners() {
+    setTimeout(() => {
+      const favoriteBtns = document.querySelectorAll('.favorite-btn');
+      favoriteBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const centroId = parseInt(btn.getAttribute('data-centro-id'));
+          favoritesManager.toggleFavorite(centroId);
+        });
+      });
+      
+      favoritesManager.updateFavoritesUI();
+    }, 0);
+  },
+
+  addRouteListeners() {
+    setTimeout(() => {
+      const routeBtns = document.querySelectorAll('.route-btn');
+      routeBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const centroId = parseInt(btn.getAttribute('data-centro-id'));
+          const centro = this.allCentros.find(c => c.id === centroId);
+          if (centro) {
+            routingService.getRouteToCentro(centro);
+          }
         });
       });
     }, 0);
@@ -180,6 +214,19 @@ export const centros = {
         </div>
 
         <div class="centro-actions">
+          <button class="favorite-btn" data-centro-id="${centro.id}" title="Agregar a favoritos">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </button>
+          ${centro.coordenadas && centro.coordenadas.lat && centro.coordenadas.lng ? `
+            <button class="route-btn" data-centro-id="${centro.id}" title="Cómo llegar">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </button>
+          ` : ''}
           <button class="expand-btn" data-centro-id="${centro.id}">
             <span class="expand-text">Ver más</span>
             <div class="expand-icon">
